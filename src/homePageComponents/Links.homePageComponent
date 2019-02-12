@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <links>ISYS_Portal</links>
+    <links>Link_Medical_Dictionary</links>
+    <links>Drugs_com</links>
+    <links>Dictionary_com</links>
+    <links>Whitepages_com</links>
+    <links>MTUS</links>
+    <links>Google</links>
+    <pageComponentType>links</pageComponentType>
+</HomePageComponent>

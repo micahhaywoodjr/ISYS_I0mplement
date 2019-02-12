@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>QA - Report Review / Rating</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>QA - Report Review / Rating</value>
+    </caseValues>
+    <fields>
+        <label><!-- A/V Section --></label>
+        <name>A_V_SectionF__c</name>
+    </fields>
+    <fields>
+        <label><!-- A/V Section - Closure --></label>
+        <name>A_V_Section_ClosureF__c</name>
+    </fields>
+    <fields>
+        <label><!-- A/V Section - Closure --></label>
+        <name>A_V_Section_Closure__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- A/V Section --></label>
+        <name>A_V_Section__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Analysis of Treatment --></label>
+        <name>Analysis_of_TreatmentF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Analysis of Treatment --></label>
+        <name>Analysis_of_Treatment_New__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Analysis of Treatment --></label>
+        <name>Analysis_of_Treatment__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Case Detail Total Rating --></label>
+        <name>Case_Detail_Total_Rating__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Management Plan --></label>
+        <name>Case_Management_PlanF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Management Plan --></label>
+        <name>Case_Management_Plan_New__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Case Management Plan --></label>
+        <name>Case_Management_Plan__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Case Manager Notes Comments --></label>
+        <name>Case_Manager_Notes_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Manager Notes Rating --></label>
+        <name>Case_Manager_Notes_RatingF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Manager Notes Rating --></label>
+        <name>Case_Manager_Notes_Rating__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Case Report / Opportunity --></label>
+        <name>Case_Report_Opportunity__c</name>
+        <relationshipLabel><!-- QA - Report Review / Rating --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Closure Total --></label>
+        <name>Closure_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comp Analysis of Case Progression --></label>
+        <name>Comp_Analysis_of_Case_ProgressionF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comp Analysis of Case Progression --></label>
+        <name>Comp_Analysis_of_Case_Progression__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation><!-- 14 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Current Diagnosis --></label>
+        <name>Current_Diagnosis__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation><!-- 25 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Current Treatment Plan --></label>
+        <name>Current_Treatment_Plan_NewF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Treatment Plan --></label>
+        <name>Current_Treatment_Plan_New__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Current Treatment Plan --></label>
+        <name>Current_Treatment_Plan__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation><!-- 25 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Detail --></label>
+        <name>DetailF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Detail Total --></label>
+        <name>Detail_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Detail --></label>
+        <name>Detail__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Diagnosis and Injury Comments --></label>
+        <name>Diagnosis_and_Injury_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Diagnosis and Injury Information --></label>
+        <name>Diagnosis_and_Injury_Information__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>33</masterLabel>
+            <translation><!-- 33 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- EBG Explanation --></label>
+        <name>EBG_Explanation__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- EE Job Evaluation --></label>
+        <name>EE_Job_Evaluation__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- EGB Explanation --></label>
+        <name>EGB_ExplanationF__c</name>
+    </fields>
+    <fields>
+        <label><!-- EGB Explanation --></label>
+        <name>EGB_Explanation__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Employer Information --></label>
+        <name>Employer_InformationF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employer Information --></label>
+        <name>Employer_Information__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Enclosure(s)/cc: Section --></label>
+        <name>Enclosure_s_cc_SectionF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enclosure(s)/cc: Section Comments --></label>
+        <name>Enclosure_s_cc_Section_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enclosure(s)/cc: Section --></label>
+        <name>Enclosure_s_cc_Section__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Healthcare Provider Commnets --></label>
+        <name>Healthcare_Provider_Commnets__c</name>
+    </fields>
+    <fields>
+        <label><!-- Healthcare Provider Section --></label>
+        <name>Healthcare_Provider_Section__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>33</masterLabel>
+            <translation><!-- 33 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Healthcare Provider --></label>
+        <name>Healthcare_Provider__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation><!-- 25 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Initial Prog Total --></label>
+        <name>Initial_Prog_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- MMI --></label>
+        <name>MMIF__c</name>
+    </fields>
+    <fields>
+        <label><!-- MMI - Closure --></label>
+        <name>MMI_ClosureF__c</name>
+    </fields>
+    <fields>
+        <label><!-- MMI - Closure --></label>
+        <name>MMI_Closure__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation><!-- 14 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- MMI --></label>
+        <name>MMI__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Nature &amp; History --></label>
+        <name>Nature_History__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation><!-- 25 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Other Pertinent Info --></label>
+        <name>Other_Pertinent_Info__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Other Pertinent Information - Closure --></label>
+        <name>Other_Pertinent_Information_ClosureF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Pertinent Information - Closure --></label>
+        <name>Other_Pertinent_Information_Closure__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation><!-- 14 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- P &amp; S --></label>
+        <name>P_S__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Plan of Action --></label>
+        <name>Plan_of_Action__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reason for Closure --></label>
+        <name>Reason_for_ClosureF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason for Closure --></label>
+        <name>Reason_for_Closure__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation><!-- 14 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Report Details - Closure --></label>
+        <name>Report_Details_ClosureF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Details - Closure --></label>
+        <name>Report_Details_Closure__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Report Details (Prognosis/Diagnostics) --></label>
+        <name>Report_Details_Prognosis_DiagnosticsF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Details (Prognosis/Diagnostics) --></label>
+        <name>Report_Details_Prognosis_Diagnostics__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Report Details --></label>
+        <name>Report_Details__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reason for Email --></label>
+        <name>Responsive_to_QC_Emails_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Responsive to QC Emails Rating --></label>
+        <name>Responsive_to_QC_Emails_RatingF__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA Email Sent --></label>
+        <name>Responsive_to_QC_Emails_Rating__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Return to Work Info --></label>
+        <name>Return_to_Work_InfoF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return to Work Info --></label>
+        <name>Return_to_Work_Info_ClosureF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return to Work Info --></label>
+        <name>Return_to_Work_Info__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Return to Work Status --></label>
+        <name>Return_to_Work_Status_Closure__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation><!-- 14 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Return to Work Status --></label>
+        <name>Return_to_Work_Status__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Standard Total --></label>
+        <name>Standard_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Standard Uniform Total --></label>
+        <name>Standard_Uniform_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Summation of Medical Status --></label>
+        <name>Summation_of_Medical_Status__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation><!-- 25 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Supervised by --></label>
+        <name>Supervised_by__c</name>
+    </fields>
+    <fields>
+        <label><!-- Surgeries and Hospitalizations Comments --></label>
+        <name>Surgeries_and_Hospitalizations_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Surgeries and Hospitalizations --></label>
+        <name>Surgeries_and_Hospitalizations__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>34</masterLabel>
+            <translation><!-- 34 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Surgery/Hospitalization --></label>
+        <name>Surgery_Hospitalization__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation><!-- 25 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total QA Rating --></label>
+        <name>Total_QA_Rating__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total QA Review Rating --></label>
+        <name>Total_QA_Review_Rating__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total --></label>
+        <name>Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vocational Services --></label>
+        <name>Vocational_ServicesF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vocational Services --></label>
+        <name>Vocational_Services__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Work Restrictions --></label>
+        <name>Work_Restrictions__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Work Status --></label>
+        <name>Work_Status__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>CM View QA Rating</layout>
+        <sections>
+            <label><!-- Case Detail Section --></label>
+            <section>Case Detail Section</section>
+        </sections>
+        <sections>
+            <label><!-- Case Report Section - Abb Prog/Closure/Ancillary --></label>
+            <section>Case Report Section - Abb Prog/Closure/Ancillary</section>
+        </sections>
+        <sections>
+            <label><!-- Case Report Section - Closure --></label>
+            <section>Case Report Section - Closure</section>
+        </sections>
+        <sections>
+            <label><!-- Case Report Section - Initial &amp; Progress --></label>
+            <section>Case Report Section - Initial &amp; Progress</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- To Be Completed by QA --></label>
+            <section>To Be Completed by QA</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>QA - Report Review / Rating Layout</layout>
+        <sections>
+            <label><!-- Case Detail Section --></label>
+            <section>Case Detail Section</section>
+        </sections>
+        <sections>
+            <label><!-- Case Report Section - Abb Prog/Closure --></label>
+            <section>Case Report Section - Abb Prog/Closure</section>
+        </sections>
+        <sections>
+            <label><!-- Case Report Section - Standard --></label>
+            <section>Case Report Section - Standard</section>
+        </sections>
+        <sections>
+            <label><!-- Case Report Section - Standard Uniform --></label>
+            <section>Case Report Section - Standard Uniform</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- To Be Completed by QA --></label>
+            <section>To Be Completed by QA</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>QA Rating</layout>
+        <sections>
+            <label><!-- Case Detail Section - REQUIRED --></label>
+            <section>Case Detail Section - REQUIRED</section>
+        </sections>
+        <sections>
+            <label><!-- Case Report Section - Abb Prog/Closure/Ancillary --></label>
+            <section>Case Report Section - Abb Prog/Closure/Ancillary</section>
+        </sections>
+        <sections>
+            <label><!-- Case Report Section - Closure --></label>
+            <section>Case Report Section - Closure</section>
+        </sections>
+        <sections>
+            <label><!-- Case Report Section - Initial &amp; Progress --></label>
+            <section>Case Report Section - Initial &amp; Progress</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- To Be Completed by QA - REQUIRED --></label>
+            <section>To Be Completed by QA - REQUIRED</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

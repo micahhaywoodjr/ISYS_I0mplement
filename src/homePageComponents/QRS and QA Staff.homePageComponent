@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <links>Todaysapprovals</links>
+    <links>CR_Approval_Status</links>
+    <links>A_CR_Approval_Status</links>
+    <links>QA_CR_Approval_Status</links>
+    <links>D_CR_Approval_Status</links>
+    <links>PPE_Mon_reports_submitted_prior_to_12AM</links>
+    <links>Open_Cases_by_CM</links>
+    <pageComponentType>links</pageComponentType>
+</HomePageComponent>

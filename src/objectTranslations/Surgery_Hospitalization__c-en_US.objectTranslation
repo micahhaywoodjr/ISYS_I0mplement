@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Surgery / Hospitalization</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Surgeries / Hospitalizations</value>
+    </caseValues>
+    <fields>
+        <help><!-- Select Date --></help>
+        <label><!-- Admission Date --></label>
+        <name>Admission_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Surgeries / Hospitalizations --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select Date, if remains hospitalized leave blank and update upon discharge --></help>
+        <label><!-- Discharge Date --></label>
+        <name>Discharge_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select Yes, Pending or Not Anticipated --></help>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Not anticipated</masterLabel>
+            <translation><!-- Not anticipated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request pending decision</masterLabel>
+            <translation><!-- Request pending decision --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Indicate date and type of surgery (as indicated on the operative report) and if applicable, reason for hospitalization (as indicated on the discharge summary) --></help>
+        <label><!-- Surgery Type/Reason for Hospital Visit --></label>
+        <name>Surgery_Type_Reason_for_Hospital_Visit__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select Surgery, Hospitalization, or Surgery &amp; Hospitalization --></help>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Hospitalization</masterLabel>
+            <translation><!-- Hospitalization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surgery</masterLabel>
+            <translation><!-- Surgery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surgery &amp; Hospitalization</masterLabel>
+            <translation><!-- Surgery &amp; Hospitalization --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Surgery / Hospitalization Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Dates --></label>
+            <section>Dates</section>
+        </sections>
+        <sections>
+            <label><!-- Surgery / Hospitalization Details --></label>
+            <section>Surgery / Hospitalization Details</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- New_Surgery_Hospitalization --></label>
+        <name>New_Surgery_Hospitalization</name>
+    </webLinks>
+</CustomObjectTranslation>

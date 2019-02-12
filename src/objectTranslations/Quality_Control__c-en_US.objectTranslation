@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Quality Control</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Quality Control</value>
+    </caseValues>
+    <fields>
+        <label><!-- Approved --></label>
+        <name>Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Daily Goal --></label>
+        <name>Daily_Goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee --></label>
+        <name>Employee__c</name>
+        <relationshipLabel><!-- Quality Control --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Mentor Comments --></label>
+        <name>Mentor_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Errors --></label>
+        <name>Number_of_Errors__c</name>
+    </fields>
+    <fields>
+        <label><!-- OT Hours Worked --></label>
+        <name>OT_Hours_Worked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Queue Worked --></label>
+        <name>Queue_Worked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reg Hours Worked --></label>
+        <name>RegHoursWorked__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of reports touched --></help>
+        <label><!-- Touched --></label>
+        <name>Touched__c</name>
+    </fields>
+    <layouts>
+        <layout>Quality Control Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Approval Report</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Approval Reports</value>
+    </caseValues>
+    <fields>
+        <label><!-- Action --></label>
+        <name>Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Report / Employee Name --></label>
+        <name>CaseReportEmployeeName__c</name>
+        <relationshipLabel><!-- Approval Reports --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date/Time --></label>
+        <name>DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actual Approver --></label>
+        <name>Employee__c</name>
+        <relationshipLabel><!-- Approval Reports --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- New Action Date --></label>
+        <name>NewActionDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Days --></label>
+        <name>NumberODays__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Name --></label>
+        <name>ReportName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+    </fields>
+    <layouts>
+        <layout>Approval Report Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Case Note Entry</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Case Note Entries</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account ID --></label>
+        <name>AccountID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date activity took place --></help>
+        <label><!-- Activity Date --></label>
+        <name>Activity_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adj. Expenses --></label>
+        <name>Adj_Expenses__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adj. Mileage --></label>
+        <name>Adj_Mileage__c</name>
+    </fields>
+    <fields>
+        <help><!-- Audit: Invoice Time to QB --></help>
+        <label><!-- Adj. Professional Hours --></label>
+        <name>Adj_Professional_Hours__c</name>
+    </fields>
+    <fields>
+        <help><!-- Audit:  Invoice Non-Professional Time to QB --></help>
+        <label><!-- Adj. Travel/Wait Hours --></label>
+        <name>Adj_Travel_Wait_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Area --></label>
+        <name>Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Code --></label>
+        <lookupFilter>
+            <errorMessage><!-- INACTIVE AS OF STAFF MEETING (8/6/11) --></errorMessage>
+        </lookupFilter>
+        <name>Billing_Code__c</name>
+        <relationshipLabel><!-- Case Note Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Case Manager --></label>
+        <name>CaseManager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Covering Nurse --></label>
+        <name>Covering_Nurse__c</name>
+    </fields>
+    <fields>
+        <label><!-- CreatedDateCode --></label>
+        <name>CreatedDateCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created By Profile --></label>
+        <name>Created_By_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created by Running User --></label>
+        <name>Created_by_Running_User__c</name>
+    </fields>
+    <fields>
+        <label><!-- Driving From (City) --></label>
+        <name>Driving_From_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Driving To (City) --></label>
+        <name>Driving_To_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expenses (Nurse) --></label>
+        <name>Expenses_Nurse__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expenses --></label>
+        <name>Expenses__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final Expenses --></label>
+        <name>Final_Expenses__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final Mileage --></label>
+        <name>Final_Mileage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final Professional Hours --></label>
+        <name>Final_Professional_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final Travel/Wait Hours --></label>
+        <name>Final_Travel_Wait_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hour Total --></label>
+        <name>Hour_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mileage Rate --></label>
+        <name>MileageRate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mileage Total (A) --></label>
+        <name>MileageTotalA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mileage Total (B) --></label>
+        <name>MileageTotalB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mileage Total (Nurse) --></label>
+        <name>MileageTotalNurse__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mileage (Nurse) --></label>
+        <name>Mileage_Nurse__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mileage Total --></label>
+        <name>Mileage_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mileage --></label>
+        <name>Mileage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non-Professional Rate --></label>
+        <name>NonProfessionalRate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non-Professional Total (A) --></label>
+        <name>NonProfessionalTotalA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non-Professional Total (B) --></label>
+        <name>NonProfessionalTotalB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non-Professional Total (Nurse) --></label>
+        <name>NonProfessionalTotalNurse__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nurse Entry? --></label>
+        <name>NurseEntry__c</name>
+    </fields>
+    <fields>
+        <label><!-- PrevBillingCode --></label>
+        <name>PrevBillingCode__c</name>
+        <relationshipLabel><!-- Case Note Entries (PrevBillingCode) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Primary Nurse --></label>
+        <name>Primary_Nurse__c</name>
+    </fields>
+    <fields>
+        <label><!-- Professional Hours Rate --></label>
+        <name>ProfessionalHoursRate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Professional Total (A) --></label>
+        <name>ProfessionalTotalA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Professional Total (B) --></label>
+        <name>ProfessionalTotalB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Professional Total (Nurse) --></label>
+        <name>ProfessionalTotalNurse__c</name>
+    </fields>
+    <fields>
+        <label><!-- Professional Hours (Nurse) --></label>
+        <name>Professional_Hours_Nurse__c</name>
+    </fields>
+    <fields>
+        <help><!-- Edit : Nurse Professional Time to QB --></help>
+        <label><!-- Professional Units --></label>
+        <name>Professional_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Professional Total --></label>
+        <name>Professional_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate Calculation --></label>
+        <name>Rate_Calculation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate Locked --></label>
+        <name>Rate_Locked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate Value --></label>
+        <name>Rate_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Attachments --></label>
+        <name>RelatedAttachments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Communication Histories --></label>
+        <name>RelatedCommunicationHistories__c</name>
+    </fields>
+    <fields>
+        <label><!-- RelatedCommunicationHistorySubject --></label>
+        <name>RelatedCommunicationHistorySubject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Status --></label>
+        <name>Report_Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- Case Report that Entry is related to --></help>
+        <label><!-- Report --></label>
+        <name>Report__c</name>
+        <relationshipLabel><!-- Case Note Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Rush / Catastrophic / Weekend / Ergo --></help>
+        <label><!-- Special Services Rate --></label>
+        <name>Rush__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Hours (A) --></label>
+        <name>TotalHoursA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Hours (B) --></label>
+        <name>TotalHoursB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Hours (Nurse) --></label>
+        <name>TotalHoursNurse__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cost --></label>
+        <name>Total_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Hours --></label>
+        <name>Total_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Travel/Wait Hours (Nurse) --></label>
+        <name>Travel_Wait_Hours_Nurse__c</name>
+    </fields>
+    <fields>
+        <help><!-- Edit:  Nurse Non-Professional Time to QB --></help>
+        <label><!-- Travel/Wait Units --></label>
+        <name>Travel_Wait_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Travel/Wait Total --></label>
+        <name>Travel_Wait_Total__c</name>
+    </fields>
+    <fields>
+        <help><!-- Description of work being performed or recorded --></help>
+        <label><!-- Work Description --></label>
+        <name>Work_Description__c</name>
+    </fields>
+    <layouts>
+        <layout>Case Note Entry Layout</layout>
+        <sections>
+            <label><!-- A - Case Note Details --></label>
+            <section>A - Case Note Details</section>
+        </sections>
+        <sections>
+            <label><!-- A - Case Note Details - Time &amp; Expense --></label>
+            <section>A - Case Note Details - Time &amp; Expense</section>
+        </sections>
+        <sections>
+            <label><!-- A Case Note Details - Mileage --></label>
+            <section>A Case Note Details - Mileage</section>
+        </sections>
+        <sections>
+            <label><!-- B - Case Note Details --></label>
+            <section>B - Case Note Details</section>
+        </sections>
+        <sections>
+            <label><!-- B - Case Note Details - Mileage --></label>
+            <section>B - Case Note Details - Mileage</section>
+        </sections>
+        <sections>
+            <label><!-- B - Case Note Details - Time &amp; Expense --></label>
+            <section>B - Case Note Details - Time &amp; Expense</section>
+        </sections>
+        <sections>
+            <label><!-- Case Note Totals --></label>
+            <section>Case Note Totals</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Grand Total --></label>
+            <section>Grand Total</section>
+        </sections>
+        <sections>
+            <label><!-- Nurse - Case Note Details --></label>
+            <section>Nurse - Case Note Details</section>
+        </sections>
+        <sections>
+            <label><!-- Rates --></label>
+            <section>Rates</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Case Note Entry Layout - Read Only no delete</layout>
+        <sections>
+            <label><!-- A - Case Note Details - Time &amp; Expense --></label>
+            <section>A - Case Note Details - Time &amp; Expense</section>
+        </sections>
+        <sections>
+            <label><!-- A Case Note Details - Mileage --></label>
+            <section>A Case Note Details - Mileage</section>
+        </sections>
+        <sections>
+            <label><!-- B - Case Note Details - Mileage --></label>
+            <section>B - Case Note Details - Mileage</section>
+        </sections>
+        <sections>
+            <label><!-- B - Case Note Details - Time &amp; Expense --></label>
+            <section>B - Case Note Details - Time &amp; Expense</section>
+        </sections>
+        <sections>
+            <label><!-- Case Note Totals --></label>
+            <section>Case Note Totals</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Grand Total --></label>
+            <section>Grand Total</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Nurse Case Note Entry Layout</layout>
+        <sections>
+            <label><!-- A - Case Note Details - Time &amp; Expense --></label>
+            <section>A - Case Note Details - Time &amp; Expense</section>
+        </sections>
+        <sections>
+            <label><!-- A Case Note Details - Mileage --></label>
+            <section>A Case Note Details - Mileage</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Activity date must be within the Service Date Thru and Service Date From on the related Case Report. --></errorMessage>
+        <name>Date_Restriction</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Non-Professional Units cannot be NULL, please enter a value. --></errorMessage>
+        <name>DisallowNONProfNULLValues</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Professional Units cannot be NULL, please enter a value. --></errorMessage>
+        <name>DisallowProfNULLValues</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Professional units exceed the allowable guideline.  Please adjust. --></errorMessage>
+        <name>Exceed_Allowable_Limits_Professional</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Professional units exceed the Maximum allowable guideline. Please adjust. --></errorMessage>
+        <name>MaxAllowableLimitsProfNurse</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Travel/Wait units (Nurse) units exceed the Maximum allowable guideline. Please adjust. --></errorMessage>
+        <name>MaxAllowableLimitsTravelWait</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Professional units do not meet the Minimum allowable time entry.  Please adjust. --></errorMessage>
+        <name>MinAllowableLimitsProfNurse</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Travel/Wait Units (Nurse) units do not meet the Minimum allowable guideline.  Please adjust. --></errorMessage>
+        <name>MinAllowableLimitsTravelWait</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case Notes have been submitted and Approved.  The Case Notes can not be modified. --></errorMessage>
+        <name>No_Change_After_Approval</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When using a Professional Activity Code, you must ONLY enter units in the Professional Units field.  Please remove any data in the Travel/Wait, Mileage, To (City) and/or From (City). --></errorMessage>
+        <name>Professional_Code_with_Wait_Hours</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When using a Travel / Wait Activity Code, you must ONLY enter units in the Travel/Wait Units field. --></errorMessage>
+        <name>TravelCodeWithProfessionalHours</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Activity Code is Travel, please verify that Travel/Wait Units (Nurse), From (City) and/or To (City) have been populated before saving. --></errorMessage>
+        <name>TravelRequireHoursMileageCity</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When using a Travel / Wait Activity Code, you must ONLY enter units in the Travel/Wait Units field. --></errorMessage>
+        <name>Travel_Code_with_Professional_Hours</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Activity Code is Travel, please verify that Travel/Wait Units (Nurse), From (City) and/or To (City) have been populated before saving. --></errorMessage>
+        <name>Travel_Hours_Mileage_and_ToFrom_Req</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Activity Code is Wait, please verify that Mileage (Nurse), From (City) and/or To (City) are NOT populated before saving. --></errorMessage>
+        <name>WaitCodeNoMileageCity</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When using a Travel / Wait Activity Code, you must ONLY enter units in the Travel/Wait Units field. --></errorMessage>
+        <name>Wait_Code_with_Professional_Hours</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Add_Case_Notes --></label>
+        <name>Add_Case_Notes</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Audit_Case_Notes --></label>
+        <name>Audit_Case_Notes</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Edit_All_Case_Notes --></label>
+        <name>Edit_All_Case_Notes</name>
+    </webLinks>
+</CustomObjectTranslation>

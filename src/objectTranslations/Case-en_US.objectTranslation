@@ -1,0 +1,3980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Confidential Comment</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Confidential Comments</value>
+        </caseValues>
+        <name>case_comment</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>test</value>
+        </caseValues>
+        <name>case_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Case Manager</value>
+        </caseValues>
+        <name>case_owner</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Reason Closed</value>
+        </caseValues>
+        <name>case_reason</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Coverage Team</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Case Teams</value>
+        </caseValues>
+        <name>case_team</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Coverage Team Member</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Case Team Members</value>
+        </caseValues>
+        <name>case_team_member</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Coverage Team Member Role</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Case Team Member Roles</value>
+        </caseValues>
+        <name>case_team_member_role</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Coverage Team Record</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Case Team Records</value>
+        </caseValues>
+        <name>case_team_record</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Confidential Comment</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Confidential Comments</value>
+        </caseValues>
+        <name>comment_case</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Case Priority</value>
+        </caseValues>
+        <name>priority_case</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Referring Company</value>
+        </caseValues>
+        <name>web_company_case</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Claims Prof E-mail</value>
+        </caseValues>
+        <name>web_email_case</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Claims Professional</value>
+        </caseValues>
+        <name>web_name_case</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Phone (e.g. 555-555-1212)</value>
+        </caseValues>
+        <name>web_phone_case</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <label><!-- Address (Employee) --></label>
+        <name>Address_Employee__c</name>
+    </fields>
+    <fields>
+        <help><!-- Address for Employer --></help>
+        <label><!-- Address (Employer) --></label>
+        <name>Address_Employer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address (Referring Company) --></label>
+        <name>Address_Referring_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address (Treating Physician) --></label>
+        <name>Address_Treating_Physician__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alternate Contact Number --></label>
+        <name>Alternate_Contact_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- the date the CM receives a yes/no answer from the attorney, or, the date the CM found out the EE was represented --></help>
+        <label><!-- Employee Attorney Confirmation Date --></label>
+        <name>Approval_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Attorney Approval for NCM? --></label>
+        <name>Approval_for_NCM__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No, attorney has not responded to request for authorization</masterLabel>
+            <translation><!-- No, attorney has not responded to request for authorization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Area --></label>
+        <name>AreaNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assignment Region --></label>
+        <name>AssignmentRegion__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Assignment Region (Old) --></label>
+        <name>Assignment_Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attorney (Applicant) Address --></label>
+        <name>Attorney_Applicant_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attorney (Applicant) City --></label>
+        <name>Attorney_Applicant_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attorney (Applicant) State --></label>
+        <name>Attorney_Applicant_State__c</name>
+        <picklistValues>
+            <masterLabel>Alabama</masterLabel>
+            <translation><!-- Alabama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alaska</masterLabel>
+            <translation><!-- Alaska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arizona</masterLabel>
+            <translation><!-- Arizona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arkansas</masterLabel>
+            <translation><!-- Arkansas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>California</masterLabel>
+            <translation><!-- California --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colorado</masterLabel>
+            <translation><!-- Colorado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connecticut</masterLabel>
+            <translation><!-- Connecticut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delaware</masterLabel>
+            <translation><!-- Delaware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>District of Columbia</masterLabel>
+            <translation><!-- District of Columbia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Florida</masterLabel>
+            <translation><!-- Florida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Georgia</masterLabel>
+            <translation><!-- Georgia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hawaii</masterLabel>
+            <translation><!-- Hawaii --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Idaho</masterLabel>
+            <translation><!-- Idaho --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Illinois</masterLabel>
+            <translation><!-- Illinois --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indiana</masterLabel>
+            <translation><!-- Indiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iowa</masterLabel>
+            <translation><!-- Iowa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kansas</masterLabel>
+            <translation><!-- Kansas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kentucky</masterLabel>
+            <translation><!-- Kentucky --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Louisiana</masterLabel>
+            <translation><!-- Louisiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maine</masterLabel>
+            <translation><!-- Maine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maryland</masterLabel>
+            <translation><!-- Maryland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Massachusetts</masterLabel>
+            <translation><!-- Massachusetts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michigan</masterLabel>
+            <translation><!-- Michigan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minnesota</masterLabel>
+            <translation><!-- Minnesota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mississippi</masterLabel>
+            <translation><!-- Mississippi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missouri</masterLabel>
+            <translation><!-- Missouri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montana</masterLabel>
+            <translation><!-- Montana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nebraska</masterLabel>
+            <translation><!-- Nebraska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nevada</masterLabel>
+            <translation><!-- Nevada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Hampshire</masterLabel>
+            <translation><!-- New Hampshire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Jersey</masterLabel>
+            <translation><!-- New Jersey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Mexico</masterLabel>
+            <translation><!-- New Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New York</masterLabel>
+            <translation><!-- New York --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Carolina</masterLabel>
+            <translation><!-- North Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Dakota</masterLabel>
+            <translation><!-- North Dakota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ohio</masterLabel>
+            <translation><!-- Ohio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oklahoma</masterLabel>
+            <translation><!-- Oklahoma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oregon</masterLabel>
+            <translation><!-- Oregon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pennsylvania</masterLabel>
+            <translation><!-- Pennsylvania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puerto Rico</masterLabel>
+            <translation><!-- Puerto Rico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rhode Island</masterLabel>
+            <translation><!-- Rhode Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Carolina</masterLabel>
+            <translation><!-- South Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Dakota</masterLabel>
+            <translation><!-- South Dakota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tennessee</masterLabel>
+            <translation><!-- Tennessee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Texas</masterLabel>
+            <translation><!-- Texas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utah</masterLabel>
+            <translation><!-- Utah --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vermont</masterLabel>
+            <translation><!-- Vermont --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virginia</masterLabel>
+            <translation><!-- Virginia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Washington</masterLabel>
+            <translation><!-- Washington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Virginia</masterLabel>
+            <translation><!-- West Virginia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wisconsin</masterLabel>
+            <translation><!-- Wisconsin --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Attorney (Applicant) Zip --></label>
+        <name>Attorney_Applicant_Zip__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attorney (Defense) Address --></label>
+        <name>Attorney_Defense_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attorney (Defense) City --></label>
+        <name>Attorney_Defense_City__c</name>
+    </fields>
+    <fields>
+        <help><!-- Link to the Contact record for this Defense Attorney --></help>
+        <label><!-- Attorney (Defense) Contact Record --></label>
+        <name>Attorney_Defense_Contact_Record__c</name>
+        <relationshipLabel><!-- Cases (Attorney (Defense) Contact Record) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Attorney (Defense) State --></label>
+        <name>Attorney_Defense_State__c</name>
+        <picklistValues>
+            <masterLabel>Alabama</masterLabel>
+            <translation><!-- Alabama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alaska</masterLabel>
+            <translation><!-- Alaska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arizona</masterLabel>
+            <translation><!-- Arizona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arkansas</masterLabel>
+            <translation><!-- Arkansas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>California</masterLabel>
+            <translation><!-- California --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colorado</masterLabel>
+            <translation><!-- Colorado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connecticut</masterLabel>
+            <translation><!-- Connecticut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delaware</masterLabel>
+            <translation><!-- Delaware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>District of Columbia</masterLabel>
+            <translation><!-- District of Columbia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Florida</masterLabel>
+            <translation><!-- Florida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Georgia</masterLabel>
+            <translation><!-- Georgia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hawaii</masterLabel>
+            <translation><!-- Hawaii --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Idaho</masterLabel>
+            <translation><!-- Idaho --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Illinois</masterLabel>
+            <translation><!-- Illinois --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indiana</masterLabel>
+            <translation><!-- Indiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iowa</masterLabel>
+            <translation><!-- Iowa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kansas</masterLabel>
+            <translation><!-- Kansas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kentucky</masterLabel>
+            <translation><!-- Kentucky --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Louisiana</masterLabel>
+            <translation><!-- Louisiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maine</masterLabel>
+            <translation><!-- Maine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maryland</masterLabel>
+            <translation><!-- Maryland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Massachusetts</masterLabel>
+            <translation><!-- Massachusetts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michigan</masterLabel>
+            <translation><!-- Michigan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minnesota</masterLabel>
+            <translation><!-- Minnesota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mississippi</masterLabel>
+            <translation><!-- Mississippi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missouri</masterLabel>
+            <translation><!-- Missouri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montana</masterLabel>
+            <translation><!-- Montana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nebraska</masterLabel>
+            <translation><!-- Nebraska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nevada</masterLabel>
+            <translation><!-- Nevada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Hampshire</masterLabel>
+            <translation><!-- New Hampshire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Jersey</masterLabel>
+            <translation><!-- New Jersey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Mexico</masterLabel>
+            <translation><!-- New Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New York</masterLabel>
+            <translation><!-- New York --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Carolina</masterLabel>
+            <translation><!-- North Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Dakota</masterLabel>
+            <translation><!-- North Dakota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ohio</masterLabel>
+            <translation><!-- Ohio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oklahoma</masterLabel>
+            <translation><!-- Oklahoma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oregon</masterLabel>
+            <translation><!-- Oregon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pennsylvania</masterLabel>
+            <translation><!-- Pennsylvania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puerto Rico</masterLabel>
+            <translation><!-- Puerto Rico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rhode Island</masterLabel>
+            <translation><!-- Rhode Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Carolina</masterLabel>
+            <translation><!-- South Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Dakota</masterLabel>
+            <translation><!-- South Dakota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tennessee</masterLabel>
+            <translation><!-- Tennessee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Texas</masterLabel>
+            <translation><!-- Texas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utah</masterLabel>
+            <translation><!-- Utah --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vermont</masterLabel>
+            <translation><!-- Vermont --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virginia</masterLabel>
+            <translation><!-- Virginia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Washington</masterLabel>
+            <translation><!-- Washington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Virginia</masterLabel>
+            <translation><!-- West Virginia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wisconsin</masterLabel>
+            <translation><!-- Wisconsin --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Attorney (Defense) Zip --></label>
+        <name>Attorney_Defense_Zip__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attorney (Defense) --></label>
+        <name>Attorney_Defense__c</name>
+    </fields>
+    <fields>
+        <help><!-- Link to the Contact record for this Employee Attorney --></help>
+        <label><!-- Attorney (Employee) Contact Record --></label>
+        <name>Attorney_Employee_Contact_Record__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Attorney (Employee) --></label>
+        <name>Attorney_Employee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attorney Present --></label>
+        <name>Attorney_Present__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Attorney Representation --></label>
+        <name>Attorney_Representation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Available CM&apos;s --></label>
+        <name>AvailableCMs__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC Reports To: --></label>
+        <name>CC_Reports_To__c</name>
+    </fields>
+    <fields>
+        <help><!-- CM Supervisor to provide their assessment of the incident and provide their recommendation on how to handle with Case Manager and Customer. --></help>
+        <label><!-- CM Supervisor Assessment/Recommendation --></label>
+        <name>CMSupervisorAssessmentRecommendation__c</name>
+    </fields>
+    <fields>
+        <help><!-- CRR Manager to provide thorough synopsis of the customer&apos;s reaction/perception/expectation regarding the concern/issue. --></help>
+        <label><!-- CRR Manager Summary --></label>
+        <name>CRRManagerSummary__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select CRR --></help>
+        <label><!-- CRR Assigned --></label>
+        <name>CRR_Assigned__c</name>
+        <picklistValues>
+            <masterLabel>365</masterLabel>
+            <translation><!-- 365 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adam Thomas</masterLabel>
+            <translation><!-- Adam Thomas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alysha Loumakis-Calderon</masterLabel>
+            <translation><!-- Alysha Loumakis-Calderon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cathan Cokas</masterLabel>
+            <translation><!-- Cathan Cokas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chris Loumakis</masterLabel>
+            <translation><!-- Chris Loumakis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Christopher Evans</masterLabel>
+            <translation><!-- Christopher Evans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ciara Vesely</masterLabel>
+            <translation><!-- Ciara Vesely --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kerry Hennessy</masterLabel>
+            <translation><!-- Kerry Hennessy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miguel Alcocer</masterLabel>
+            <translation><!-- Miguel Alcocer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teresa Molina</masterLabel>
+            <translation><!-- Teresa Molina --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CRR Supervisor --></label>
+        <name>CRR_Supervisor__c</name>
+        <picklistValues>
+            <masterLabel>Adam Thomas</masterLabel>
+            <translation><!-- Adam Thomas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kerry Hennessy</masterLabel>
+            <translation><!-- Kerry Hennessy --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Case Closed Date --></label>
+        <name>CaseClosedDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicate the Case Number related to the Employee (Injured Worker) from the Medical Mgmt Case. --></help>
+        <label><!-- Case Number - Med Mgmt --></label>
+        <name>CaseNumberMedMgmt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Opened Date --></label>
+        <name>CaseOpenedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Report Mailing Instructions --></label>
+        <name>CaseReportMailingInstructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Manager Input --></label>
+        <name>Case_Manager_Input__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Report # --></label>
+        <name>Case_Report__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select Cases-Customer Type --></help>
+        <label><!-- Case Type --></label>
+        <name>Case_Type__c</name>
+        <picklistValues>
+            <masterLabel>Billing/Invoice Issue</masterLabel>
+            <translation><!-- Billing/Invoice Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expense Report Issue</masterLabel>
+            <translation><!-- Expense Report Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incident</masterLabel>
+            <translation><!-- Incident --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kudos</masterLabel>
+            <translation><!-- Kudos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing Error</masterLabel>
+            <translation><!-- Processing Error --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cases Closed Current Year --></label>
+        <name>Cases_Closed_Current_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category of Complaint --></label>
+        <name>Category_of_Complaint__c</name>
+        <picklistValues>
+            <masterLabel>Billing/cost issue</masterLabel>
+            <translation><!-- Billing/cost issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CM not being proactive</masterLabel>
+            <translation><!-- CM not being proactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CM not communicating</masterLabel>
+            <translation><!-- CM not communicating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CM not following protocols/guidelines</masterLabel>
+            <translation><!-- CM not following protocols/guidelines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CM not following special instructions</masterLabel>
+            <translation><!-- CM not following special instructions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CM not updating the customer</masterLabel>
+            <translation><!-- CM not updating the customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CM performance-did not act appropriately</masterLabel>
+            <translation><!-- CM performance-did not act appropriately --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low report card rating</masterLabel>
+            <translation><!-- Low report card rating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personality conflict</masterLabel>
+            <translation><!-- Personality conflict --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claim Number --></label>
+        <name>Claim_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claim Time --></label>
+        <name>Claim_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claimant --></label>
+        <name>Claimant__c</name>
+    </fields>
+    <fields>
+        <label><!-- ClaimsProf --></label>
+        <name>ClaimsProf__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client --></label>
+        <name>Client__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is for reference only and is limited to 255 characters.  If you want to input longer notes please use the &quot;Case Manager Notes&quot; section on the Case Page (olive-green). --></help>
+        <label><!-- Comments (Attorneys) --></label>
+        <name>Comments_Attorneys__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is for reference only and is limited to 255 characters.  If you want to input longer notes please use the &quot;Case Manager Notes&quot; section on the Case Page (olive-green). --></help>
+        <label><!-- Comments (Employee) --></label>
+        <name>Comments_Employee__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is for reference only and is limited to 255 characters.  If you want to input longer notes please use the &quot;Case Manager Notes&quot; section on the Case Page (olive-green). --></help>
+        <label><!-- Comments (Employer) --></label>
+        <name>Comments_Employer__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is for reference only and is limited to 255 characters.  If you want to input longer notes please use the &quot;Case Manager Notes&quot; section on the Case Page (olive-green). --></help>
+        <label><!-- Comments (PTP) --></label>
+        <name>Comments_PTP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Person --></label>
+        <name>Contact_Person__c</name>
+    </fields>
+    <fields>
+        <label><!-- Correct Closure Date --></label>
+        <name>Correct_Closure_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Covering CM Mileage --></label>
+        <name>CoveringCMMileage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Covering CM Prof. Hours Credit --></label>
+        <name>CoveringCMProfHoursCredit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Covering CM Prof. Hours --></label>
+        <name>CoveringCMProfHours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Covering CM Travel/Wait Hours Credit --></label>
+        <name>CoveringCMTravelWaitHoursCredit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Covering CM Travel/Wait Hours --></label>
+        <name>CoveringCMTravelWaitHours__c</name>
+    </fields>
+    <fields>
+        <help><!-- If more than three diagnoses, list as 1. 2. 3. 4. etc.
+
+For one to three diagnoses, write as narrative. --></help>
+        <label><!-- Current Diagnosis --></label>
+        <name>Current_Diagnosis__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current PTP City --></label>
+        <name>Current_PTP_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current PTP Street Address --></label>
+        <name>Current_PTP_Street_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current PTP --></label>
+        <name>Current_PTP__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicate excellent, good, fair, poor followed by description of anticipated recovery status. Also include  which criteria this is based upon i.e. PTP, consulting MD, ACOEM, ADA, NCM. --></help>
+        <label><!-- Current Prognosis --></label>
+        <name>Current_Prognosis__c</name>
+    </fields>
+    <fields>
+        <help><!-- If more than five treatment recommendations, list as 1. 2. 3. 4. 5.
+
+For one to five treatment recommendations, write in narrative. --></help>
+        <label><!-- Current Treatment --></label>
+        <name>Current_Treatment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicate full duty, modified duty, Total Temporary Disability (TTD), permanently disabled, retired, unemployed. --></help>
+        <label><!-- Current Work Status --></label>
+        <name>Current_Work_Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- Customer Special Guidelines --></help>
+        <label><!-- Customer Guidelines --></label>
+        <name>Customer_Guidelines__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Employer Contact Auth Given --></label>
+        <name>DateEmployerContactAuthGiven__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Received --></label>
+        <name>Date_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Birth --></label>
+        <name>Date_of_Birth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Initial Report --></label>
+        <name>Date_of_Initial_Report__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Last Report --></label>
+        <name>Date_of_Last_Report__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date/Time of Next Appointment --></label>
+        <name>Date_of_Next_Appointment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Injury (MM/DD/YYYY) --></label>
+        <name>Date_of_injury_MM_DD_YYYY__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Issue --></label>
+        <name>DateofIssue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Between Referral and Initial Report --></label>
+        <name>Days_Between_Referral_and_Initial_Report__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days from Injury to Referral Date --></label>
+        <name>Days_from_Injury_to_Referral_Date2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the number of days, if injury and referral are on the same day, enter the number zero (0). --></help>
+        <label><!-- Days from injury to referral date --></label>
+        <name>Days_from_injury_to_referral_date__c</name>
+    </fields>
+    <fields>
+        <help><!-- If applicable, indicate if CP has requested the Defense Attorney (DA) be cc: on Case Reports. --></help>
+        <label><!-- Defense Attorney - cc: Case Reports? --></label>
+        <name>DefenseAttorneyccCaseReports__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not applicable</masterLabel>
+            <translation><!-- Not applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Defense Attorney cc: request date --></label>
+        <name>DefenseAttorneyccrequestdate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Defense Attorney - comment(s) --></label>
+        <name>DefenseAttorneycomments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Would you like to be contacted to discuss and issues or concerns?  Yes/No --></help>
+        <label><!-- Discuss Issues --></label>
+        <name>DiscussIssues__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>Due_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Insert EE email address or specify reason for no email address --></help>
+        <label><!-- EE Email --></label>
+        <name>EE_Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- Checked if EUF is required --></help>
+        <label><!-- EUF Required --></label>
+        <name>EUF_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- EUF - Send To: --></label>
+        <name>EUF_Send_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email (Employer) --></label>
+        <name>Email_Employer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicate date and time of when initial email was sent to CM Supervisor --></help>
+        <label><!-- Email sent to CM Supervisor --></label>
+        <name>EmailsenttoCMSupervisor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicate date and time when summary and CMA link was emailed to Human Resources. --></help>
+        <label><!-- Email sent to Human Resources --></label>
+        <name>EmailsenttoHumanResources__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicate date and time when email was sent to CRR Manager.  This communication will provide the details from the Case Manager and CM Supervisor. --></help>
+        <label><!-- Email to CRR Manager --></label>
+        <name>EmailtoCRRManager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Attorney at time of referral --></label>
+        <name>EmployeeAttorneyattimeofreferral__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Name --></label>
+        <name>EmployeeName__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Employee Address --></label>
+        <name>Employee_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Attorney - cc: Case Reports? --></label>
+        <name>Employee_Attorney_cc_Case_Reports__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Employee (Case Trakker) --></label>
+        <name>Employee_Case_Trakker__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee City --></label>
+        <name>Employee_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Gender --></label>
+        <name>Employee_Gender__c</name>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation><!-- Female --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation><!-- Male --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Employee Phone --></label>
+        <name>Employee_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee State --></label>
+        <name>Employee_State__c</name>
+        <picklistValues>
+            <masterLabel>Alabama</masterLabel>
+            <translation><!-- Alabama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alaska</masterLabel>
+            <translation><!-- Alaska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arizona</masterLabel>
+            <translation><!-- Arizona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arkansas</masterLabel>
+            <translation><!-- Arkansas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>California</masterLabel>
+            <translation><!-- California --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colorado</masterLabel>
+            <translation><!-- Colorado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connecticut</masterLabel>
+            <translation><!-- Connecticut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delaware</masterLabel>
+            <translation><!-- Delaware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>District of Columbia</masterLabel>
+            <translation><!-- District of Columbia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Florida</masterLabel>
+            <translation><!-- Florida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Georgia</masterLabel>
+            <translation><!-- Georgia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hawaii</masterLabel>
+            <translation><!-- Hawaii --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Idaho</masterLabel>
+            <translation><!-- Idaho --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Illinois</masterLabel>
+            <translation><!-- Illinois --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indiana</masterLabel>
+            <translation><!-- Indiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iowa</masterLabel>
+            <translation><!-- Iowa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kansas</masterLabel>
+            <translation><!-- Kansas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kentucky</masterLabel>
+            <translation><!-- Kentucky --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Louisiana</masterLabel>
+            <translation><!-- Louisiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maine</masterLabel>
+            <translation><!-- Maine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maryland</masterLabel>
+            <translation><!-- Maryland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Massachusetts</masterLabel>
+            <translation><!-- Massachusetts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michigan</masterLabel>
+            <translation><!-- Michigan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minnesota</masterLabel>
+            <translation><!-- Minnesota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mississippi</masterLabel>
+            <translation><!-- Mississippi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missouri</masterLabel>
+            <translation><!-- Missouri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montana</masterLabel>
+            <translation><!-- Montana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nebraska</masterLabel>
+            <translation><!-- Nebraska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nevada</masterLabel>
+            <translation><!-- Nevada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Hampshire</masterLabel>
+            <translation><!-- New Hampshire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Jersey</masterLabel>
+            <translation><!-- New Jersey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Mexico</masterLabel>
+            <translation><!-- New Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New York</masterLabel>
+            <translation><!-- New York --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Carolina</masterLabel>
+            <translation><!-- North Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Dakota</masterLabel>
+            <translation><!-- North Dakota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ohio</masterLabel>
+            <translation><!-- Ohio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oklahoma</masterLabel>
+            <translation><!-- Oklahoma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oregon</masterLabel>
+            <translation><!-- Oregon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pennsylvania</masterLabel>
+            <translation><!-- Pennsylvania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puerto Rico</masterLabel>
+            <translation><!-- Puerto Rico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rhode Island</masterLabel>
+            <translation><!-- Rhode Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Carolina</masterLabel>
+            <translation><!-- South Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Dakota</masterLabel>
+            <translation><!-- South Dakota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tennessee</masterLabel>
+            <translation><!-- Tennessee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Texas</masterLabel>
+            <translation><!-- Texas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utah</masterLabel>
+            <translation><!-- Utah --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vermont</masterLabel>
+            <translation><!-- Vermont --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virginia</masterLabel>
+            <translation><!-- Virginia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Washington</masterLabel>
+            <translation><!-- Washington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Virginia</masterLabel>
+            <translation><!-- West Virginia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wisconsin</masterLabel>
+            <translation><!-- Wisconsin --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Employee Zip --></label>
+        <name>Employee_Zip__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee --></label>
+        <name>Employee__c</name>
+        <relationshipLabel><!-- Open Files (Cases) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Employer Contact --></label>
+        <name>EmployerContact__c</name>
+        <relationshipLabel><!-- Cases (Employer Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Employer Account Record --></label>
+        <name>Employer_Account_Record__c</name>
+        <relationshipLabel><!-- Cases (Employer Account Record) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Employer Address --></label>
+        <name>Employer_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employer City --></label>
+        <name>Employer_City__c</name>
+    </fields>
+    <fields>
+        <help><!-- Does NCM have authorization to contact the Employer? --></help>
+        <label><!-- Employer Contact Authorized? --></label>
+        <name>Employer_Contact_Authorized__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Employer State --></label>
+        <name>Employer_State__c</name>
+        <picklistValues>
+            <masterLabel>Alabama</masterLabel>
+            <translation><!-- Alabama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alaska</masterLabel>
+            <translation><!-- Alaska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arizona</masterLabel>
+            <translation><!-- Arizona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arkansas</masterLabel>
+            <translation><!-- Arkansas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>California</masterLabel>
+            <translation><!-- California --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colorado</masterLabel>
+            <translation><!-- Colorado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connecticut</masterLabel>
+            <translation><!-- Connecticut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delaware</masterLabel>
+            <translation><!-- Delaware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>District of Columbia</masterLabel>
+            <translation><!-- District of Columbia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Florida</masterLabel>
+            <translation><!-- Florida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Georgia</masterLabel>
+            <translation><!-- Georgia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hawaii</masterLabel>
+            <translation><!-- Hawaii --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Idaho</masterLabel>
+            <translation><!-- Idaho --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Illinois</masterLabel>
+            <translation><!-- Illinois --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indiana</masterLabel>
+            <translation><!-- Indiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iowa</masterLabel>
+            <translation><!-- Iowa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kansas</masterLabel>
+            <translation><!-- Kansas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kentucky</masterLabel>
+            <translation><!-- Kentucky --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Louisiana</masterLabel>
+            <translation><!-- Louisiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maine</masterLabel>
+            <translation><!-- Maine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maryland</masterLabel>
+            <translation><!-- Maryland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Massachusetts</masterLabel>
+            <translation><!-- Massachusetts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michigan</masterLabel>
+            <translation><!-- Michigan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minnesota</masterLabel>
+            <translation><!-- Minnesota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mississippi</masterLabel>
+            <translation><!-- Mississippi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missouri</masterLabel>
+            <translation><!-- Missouri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montana</masterLabel>
+            <translation><!-- Montana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nebraska</masterLabel>
+            <translation><!-- Nebraska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nevada</masterLabel>
+            <translation><!-- Nevada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Hampshire</masterLabel>
+            <translation><!-- New Hampshire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Jersey</masterLabel>
+            <translation><!-- New Jersey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Mexico</masterLabel>
+            <translation><!-- New Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New York</masterLabel>
+            <translation><!-- New York --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Carolina</masterLabel>
+            <translation><!-- North Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Dakota</masterLabel>
+            <translation><!-- North Dakota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ohio</masterLabel>
+            <translation><!-- Ohio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oklahoma</masterLabel>
+            <translation><!-- Oklahoma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oregon</masterLabel>
+            <translation><!-- Oregon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pennsylvania</masterLabel>
+            <translation><!-- Pennsylvania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puerto Rico</masterLabel>
+            <translation><!-- Puerto Rico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rhode Island</masterLabel>
+            <translation><!-- Rhode Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Carolina</masterLabel>
+            <translation><!-- South Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Dakota</masterLabel>
+            <translation><!-- South Dakota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tennessee</masterLabel>
+            <translation><!-- Tennessee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Texas</masterLabel>
+            <translation><!-- Texas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utah</masterLabel>
+            <translation><!-- Utah --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vermont</masterLabel>
+            <translation><!-- Vermont --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virginia</masterLabel>
+            <translation><!-- Virginia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Washington</masterLabel>
+            <translation><!-- Washington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Virginia</masterLabel>
+            <translation><!-- West Virginia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wisconsin</masterLabel>
+            <translation><!-- Wisconsin --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Employer Zip --></label>
+        <name>Employer_Zip__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employer --></label>
+        <name>Employer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enclosures --></label>
+        <name>Enclosures__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Result --></label>
+        <name>End_Result__c</name>
+        <picklistValues>
+            <masterLabel>Add CM to DNR List for this customer</masterLabel>
+            <translation><!-- Add CM to DNR List for this customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing was appropriate</masterLabel>
+            <translation><!-- Billing was appropriate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CM acted appropriately</masterLabel>
+            <translation><!-- CM acted appropriately --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case closure</masterLabel>
+            <translation><!-- Case closure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case to remain with current CM</masterLabel>
+            <translation><!-- Case to remain with current CM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case transfer</masterLabel>
+            <translation><!-- Case transfer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comments emailed to HR</masterLabel>
+            <translation><!-- Comments emailed to HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Discount</masterLabel>
+            <translation><!-- Invoice Discount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Issue resolved - customer not satisfied</masterLabel>
+            <translation><!-- Issue resolved - customer not satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Issue resolved - customer satisfied</masterLabel>
+            <translation><!-- Issue resolved - customer satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No invoice adjustment</masterLabel>
+            <translation><!-- No invoice adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Report revised</masterLabel>
+            <translation><!-- Report revised --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supervisor counseling</masterLabel>
+            <translation><!-- Supervisor counseling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warning issued / HR involvement</masterLabel>
+            <translation><!-- Warning issued / HR involvement --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ergonomic Evaluation --></label>
+        <name>Ergonomic_Evaluation__c</name>
+    </fields>
+    <fields>
+        <help><!-- select error type --></help>
+        <label><!-- Error Type --></label>
+        <name>Error_Type__c</name>
+        <picklistValues>
+            <masterLabel># of pages missing in CN description</masterLabel>
+            <translation><!-- # of pages missing in CN description --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ICD10 code not completed</masterLabel>
+            <translation><!-- ICD10 code not completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multiple errors in one report</masterLabel>
+            <translation><!-- Multiple errors in one report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ODG not completed</masterLabel>
+            <translation><!-- ODG not completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>approved incomplete report</masterLabel>
+            <translation><!-- approved incomplete report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>case note description incomplete - should have requested CM to provide details</masterLabel>
+            <translation><!-- case note description incomplete - should have requested CM to provide details --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>customer guidelines not followed</masterLabel>
+            <translation><!-- customer guidelines not followed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>file closure confirmation from CP not documented and/or questioned</masterLabel>
+            <translation><!-- file closure confirmation from CP not documented and/or questioned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>grammar</masterLabel>
+            <translation><!-- grammar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>invoice and//or report sent to wrong customer</masterLabel>
+            <translation><!-- invoice and//or report sent to wrong customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>missed Saturday visit</masterLabel>
+            <translation><!-- missed Saturday visit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>missing abbreviation</masterLabel>
+            <translation><!-- missing abbreviation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>missing mileage</masterLabel>
+            <translation><!-- missing mileage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>no report case note</masterLabel>
+            <translation><!-- no report case note --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>overlapping dates</masterLabel>
+            <translation><!-- overlapping dates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>rush rate not marked</masterLabel>
+            <translation><!-- rush rate not marked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>spell out abbreviation</masterLabel>
+            <translation><!-- spell out abbreviation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>typo(s)</masterLabel>
+            <translation><!-- typo(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>wrong activity code</masterLabel>
+            <translation><!-- wrong activity code --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Expedited Activity --></label>
+        <name>Expedited_Activity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fax (Employer) --></label>
+        <name>Fax_Employer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fax (Treating Physician) --></label>
+        <name>Fax_Treating_Physician__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fax --></label>
+        <name>Fax__c</name>
+    </fields>
+    <fields>
+        <label><!-- File # Autonumber --></label>
+        <name>File_Number_Autonumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grand Total Expenses --></label>
+        <name>GrandTotalExpenses__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grand Total Invoiced --></label>
+        <name>GrandTotalInvoiced__c</name>
+    </fields>
+    <fields>
+        <help><!-- QA to add if empty --></help>
+        <label><!-- ICD10 Code --></label>
+        <name>ICD10__c</name>
+    </fields>
+    <fields>
+        <help><!-- QA to add if empty --></help>
+        <label><!-- ICD9 Code --></label>
+        <name>ICD9_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- ISYS File # --></label>
+        <name>ISYS_File__c</name>
+    </fields>
+    <fields>
+        <label><!-- IT Issue --></label>
+        <name>IT_Issue__c</name>
+        <picklistValues>
+            <masterLabel>Adobe Acrobat</masterLabel>
+            <translation><!-- Adobe Acrobat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broadband</masterLabel>
+            <translation><!-- Broadband --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CMA (Salesforce) other</masterLabel>
+            <translation><!-- CMA (Salesforce) other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cellphone</masterLabel>
+            <translation><!-- Cellphone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conga</masterLabel>
+            <translation><!-- Conga --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Desktop</masterLabel>
+            <translation><!-- Desktop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Docking station</masterLabel>
+            <translation><!-- Docking station --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laptop</masterLabel>
+            <translation><!-- Laptop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leave</masterLabel>
+            <translation><!-- Leave --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Hire</masterLabel>
+            <translation><!-- New Hire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other - Hardware</masterLabel>
+            <translation><!-- Other - Hardware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other - Software</masterLabel>
+            <translation><!-- Other - Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outlook</masterLabel>
+            <translation><!-- Outlook --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outlook - Send/Add button</masterLabel>
+            <translation><!-- Outlook - Send/Add button --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Printer</masterLabel>
+            <translation><!-- Printer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project/Presentation</masterLabel>
+            <translation><!-- Project/Presentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QuickBooks</masterLabel>
+            <translation><!-- QuickBooks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Termination</masterLabel>
+            <translation><!-- Termination --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- IT Owner --></label>
+        <name>IT_Owner__c</name>
+        <picklistValues>
+            <masterLabel>HH</masterLabel>
+            <translation><!-- HH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JR</masterLabel>
+            <translation><!-- JR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MH</masterLabel>
+            <translation><!-- MH --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- IT Priority --></label>
+        <name>IT_Priority__c</name>
+        <picklistValues>
+            <masterLabel>1 - High</masterLabel>
+            <translation><!-- 1 - High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Meduim</masterLabel>
+            <translation><!-- 2 - Meduim --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Low</masterLabel>
+            <translation><!-- 3 - Low --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- IT Ticket On Hold --></label>
+        <name>IT_Ticket_On_Hold__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Initial Intake --></label>
+        <name>Initial_Intake__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance Broker Contact Email --></label>
+        <name>InsuranceBrokerContactEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance Broker Contact Telephone --></label>
+        <name>InsuranceBrokerContactTelephone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance Broker Contact --></label>
+        <name>InsuranceBrokerContact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance Broker --></label>
+        <name>InsuranceBroker__c</name>
+    </fields>
+    <fields>
+        <help><!-- Give detail of Assignment / Task, if provided. --></help>
+        <label><!-- Internal Assignment Comments --></label>
+        <name>Internal_Assignment_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Mailing Instructions --></label>
+        <name>InvoiceMailingInstructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Analysis --></label>
+        <name>Job_Analysis__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Evaluation Available? --></label>
+        <name>Job_Evaluation_Available__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the State where the File is being managed. --></help>
+        <label><!-- Jurisdiction --></label>
+        <name>Jurisdiction__c</name>
+        <picklistValues>
+            <masterLabel>Arizona-WC</masterLabel>
+            <translation><!-- Arizona-WC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>California-WC</masterLabel>
+            <translation><!-- California-WC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EWT</masterLabel>
+            <translation><!-- EWT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Educational Services</masterLabel>
+            <translation><!-- Educational Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ergo. Eval.</masterLabel>
+            <translation><!-- Ergo. Eval. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LCP</masterLabel>
+            <translation><!-- LCP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LMS</masterLabel>
+            <translation><!-- LMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nevada-WC</masterLabel>
+            <translation><!-- Nevada-WC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Mexico-WC</masterLabel>
+            <translation><!-- New Mexico-WC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seminars</masterLabel>
+            <translation><!-- Seminars --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Kudos Detail --></label>
+        <name>Kudos_Detail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Labor Market Survey --></label>
+        <name>Labor_Market_Survey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Report Aging --></label>
+        <name>Last_Report_Aging__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the State where the injury took place. --></help>
+        <label><!-- State of Injury --></label>
+        <name>Legal_Jurisdiction__c</name>
+        <picklistValues>
+            <masterLabel>Alabama</masterLabel>
+            <translation><!-- Alabama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alaska</masterLabel>
+            <translation><!-- Alaska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arizona</masterLabel>
+            <translation><!-- Arizona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arkansas</masterLabel>
+            <translation><!-- Arkansas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>California</masterLabel>
+            <translation><!-- California --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colorado</masterLabel>
+            <translation><!-- Colorado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connecticut</masterLabel>
+            <translation><!-- Connecticut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delaware</masterLabel>
+            <translation><!-- Delaware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Florida</masterLabel>
+            <translation><!-- Florida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Georgia</masterLabel>
+            <translation><!-- Georgia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hawaii</masterLabel>
+            <translation><!-- Hawaii --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Idaho</masterLabel>
+            <translation><!-- Idaho --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Illinois</masterLabel>
+            <translation><!-- Illinois --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indiana</masterLabel>
+            <translation><!-- Indiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iowa</masterLabel>
+            <translation><!-- Iowa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kansas</masterLabel>
+            <translation><!-- Kansas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kentucky</masterLabel>
+            <translation><!-- Kentucky --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Louisiana</masterLabel>
+            <translation><!-- Louisiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maine</masterLabel>
+            <translation><!-- Maine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maryland</masterLabel>
+            <translation><!-- Maryland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Massachusetts</masterLabel>
+            <translation><!-- Massachusetts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michigan</masterLabel>
+            <translation><!-- Michigan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minnesota</masterLabel>
+            <translation><!-- Minnesota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mississippi</masterLabel>
+            <translation><!-- Mississippi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missouri</masterLabel>
+            <translation><!-- Missouri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montana</masterLabel>
+            <translation><!-- Montana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nebraska</masterLabel>
+            <translation><!-- Nebraska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nevada</masterLabel>
+            <translation><!-- Nevada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Hampshire</masterLabel>
+            <translation><!-- New Hampshire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Jersey</masterLabel>
+            <translation><!-- New Jersey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Mexico</masterLabel>
+            <translation><!-- New Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New York</masterLabel>
+            <translation><!-- New York --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Carolina</masterLabel>
+            <translation><!-- North Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Dakota</masterLabel>
+            <translation><!-- North Dakota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ohio</masterLabel>
+            <translation><!-- Ohio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oklahoma</masterLabel>
+            <translation><!-- Oklahoma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oregon</masterLabel>
+            <translation><!-- Oregon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pennsylvania</masterLabel>
+            <translation><!-- Pennsylvania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rhode Island</masterLabel>
+            <translation><!-- Rhode Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Carolina</masterLabel>
+            <translation><!-- South Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Dakota</masterLabel>
+            <translation><!-- South Dakota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tennessee</masterLabel>
+            <translation><!-- Tennessee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Texas</masterLabel>
+            <translation><!-- Texas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utah</masterLabel>
+            <translation><!-- Utah --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vermont</masterLabel>
+            <translation><!-- Vermont --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virginia</masterLabel>
+            <translation><!-- Virginia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Washington</masterLabel>
+            <translation><!-- Washington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Washington DC</masterLabel>
+            <translation><!-- Washington DC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Virginia</masterLabel>
+            <translation><!-- West Virginia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wisconsin</masterLabel>
+            <translation><!-- Wisconsin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wyoming</masterLabel>
+            <translation><!-- Wyoming --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Life Care Plans --></label>
+        <name>Life_Care_Plans__c</name>
+    </fields>
+    <fields>
+        <label><!-- Light Duty/Modified Work? --></label>
+        <name>Light_Duty_Modified_Work__c</name>
+    </fields>
+    <fields>
+        <help><!-- Manager to provide synopsis of incident and send to Human resources. --></help>
+        <label><!-- Manager Closing Summary --></label>
+        <name>Manager_Closing_Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Records to be Provided By: --></label>
+        <name>Medical_Records_to_be_Provided_By__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fax</masterLabel>
+            <translation><!-- Fax --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S. Mail</masterLabel>
+            <translation><!-- U.S. Mail --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mileage Billings Total (A) --></label>
+        <name>MileageBillingsTotalA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mileage Billings Total (B) --></label>
+        <name>MileageBillingsTotalB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mileage Total (A) --></label>
+        <name>MileageTotalA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mileage Total (B) --></label>
+        <name>MileageTotalB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mileage Total (CM) --></label>
+        <name>MileageTotalCM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Months Open --></label>
+        <name>Months_Open__c</name>
+    </fields>
+    <fields>
+        <label><!-- Motivation to RTW --></label>
+        <name>Motivation_to_RTW__c</name>
+        <picklistValues>
+            <masterLabel>Bored</masterLabel>
+            <translation><!-- Bored --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Money</masterLabel>
+            <translation><!-- Money --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- NCM - Catastrophic --></label>
+        <name>NCM_Catastrophic__c</name>
+    </fields>
+    <fields>
+        <label><!-- NCM - Long Term Disability --></label>
+        <name>NCM_Long_Term_Disability__c</name>
+    </fields>
+    <fields>
+        <label><!-- NCM - Onsite --></label>
+        <name>NCM_Onsite__c</name>
+    </fields>
+    <fields>
+        <label><!-- NCM - Telephonic --></label>
+        <name>NCM_Telephonic__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box if the CP requested this NCM specifically. --></help>
+        <label><!-- NCM requested by CP --></label>
+        <name>NCMrequestedbyCP__c</name>
+    </fields>
+    <fields>
+        <help><!-- Include mechanism of Injury, date of injury, and initial symptoms, age of employee at time of injury, employee job title --></help>
+        <label><!-- Nature &amp; History of Injury --></label>
+        <name>Nature_and_History_of_Injury__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non Professional Billings Total (B) --></label>
+        <name>NonProfessionalBillingsTotalB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non Professional Hours (A) --></label>
+        <name>NonProfessionalHoursA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non Professional Hours (B) --></label>
+        <name>NonProfessionalHoursB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non Professional Hours (CM) --></label>
+        <name>NonProfessionalHoursCM__c</name>
+    </fields>
+    <fields>
+        <help><!-- QC staff will complete this field for NCM. --></help>
+        <label><!-- ODG --></label>
+        <name>ODG__c</name>
+    </fields>
+    <fields>
+        <label><!-- Occupation --></label>
+        <name>Occupation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Case --></label>
+        <name>OriginalCase__c</name>
+        <relationshipLabel><!-- All Child Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Originally Referred By --></label>
+        <name>OriginallyReferredBy__c</name>
+        <relationshipLabel><!-- Cases (Originally Referred By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Provide detail for &apos;Other&apos; selection. --></help>
+        <label><!-- Other Comment(s) --></label>
+        <name>OtherComments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Special Instructions: --></label>
+        <name>Other_Special_Instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- OwnerAtCaseClose --></label>
+        <name>OwnerAtCaseClose__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This field has a 32,000 character maximum --></help>
+        <label><!-- Please Provide Reason For Referral: --></label>
+        <name>PLEASE_PROVIDE_REASONS_FOR_REFERRAL__c</name>
+    </fields>
+    <fields>
+        <label><!-- P&amp;S PTP Discussion --></label>
+        <name>P_S_PTP_Discussion__c</name>
+    </fields>
+    <fields>
+        <label><!-- P&amp;S Target Date --></label>
+        <name>P_S_Target_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone (Defense) --></label>
+        <name>Phone_Defense__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone (Employee Attorney) --></label>
+        <name>Phone_Employee_Attorney__c</name>
+    </fields>
+    <fields>
+        <help><!-- Phone for Employer --></help>
+        <label><!-- Phone (Employer) --></label>
+        <name>Phone_Employer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone (Treating Physician) --></label>
+        <name>Phone_Treating_Physician__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preferred Method of Communication --></label>
+        <name>Preferred_Method_of_Communication__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAX</masterLabel>
+            <translation><!-- FAX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile</masterLabel>
+            <translation><!-- Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation><!-- Phone --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Preferred Provider (Optional) --></label>
+        <name>Preferred_Provider_Optional__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary CM Mileage --></label>
+        <name>PrimaryCMMileage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary CM Prof. Hours Credit --></label>
+        <name>PrimaryCMProfHoursCredit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary CM Prof. Hours --></label>
+        <name>PrimaryCMProfHours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary CM Travel/Wait Hours Credit --></label>
+        <name>PrimaryCMTravelWaitHoursCredit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary CM Travel/Wait Hours --></label>
+        <name>PrimaryCMTravelWaitHours__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Primary Providers? --></label>
+        <name>PrimaryProvidersNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Campaign --></label>
+        <name>Primary_Campaign__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Primary Language --></label>
+        <name>Primary_Language__c</name>
+        <picklistValues>
+            <masterLabel>(Chinese) Cantonese</masterLabel>
+            <translation><!-- (Chinese) Cantonese --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(Chinese) Mandarin</masterLabel>
+            <translation><!-- (Chinese) Mandarin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>English</masterLabel>
+            <translation><!-- English --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korean</masterLabel>
+            <translation><!-- Korean --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spanish</masterLabel>
+            <translation><!-- Spanish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tagalog</masterLabel>
+            <translation><!-- Tagalog --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vietnamese</masterLabel>
+            <translation><!-- Vietnamese --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Professional Billings Total (B) --></label>
+        <name>ProfessionalBillingsTotalB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Professional Hours (A) --></label>
+        <name>ProfessionalHoursA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Professional Hours (B) --></label>
+        <name>ProfessionalHoursB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Professional Hours (CM) --></label>
+        <name>ProfessionalHoursCM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Details --></label>
+        <name>Project_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- QB Service Item --></label>
+        <name>QB_Service_Item__c</name>
+        <picklistValues>
+            <masterLabel>CSL Consulting</masterLabel>
+            <translation><!-- CSL Consulting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSL Course Licensing</masterLabel>
+            <translation><!-- CSL Course Licensing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSL Custom Design</masterLabel>
+            <translation><!-- CSL Custom Design --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSL Group Rates</masterLabel>
+            <translation><!-- CSL Group Rates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSL Online</masterLabel>
+            <translation><!-- CSL Online --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSL Seminar On-Site</masterLabel>
+            <translation><!-- CSL Seminar On-Site --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSL Sponsorship/Advertisement</masterLabel>
+            <translation><!-- CSL Sponsorship/Advertisement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discount</masterLabel>
+            <translation><!-- Discount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ER</masterLabel>
+            <translation><!-- ER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EWT</masterLabel>
+            <translation><!-- EWT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ergo. Eval.</masterLabel>
+            <translation><!-- Ergo. Eval. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expenses</masterLabel>
+            <translation><!-- Expenses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert Witness Testimony</masterLabel>
+            <translation><!-- Expert Witness Testimony --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interactive Process</masterLabel>
+            <translation><!-- Interactive Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Job Analysis</masterLabel>
+            <translation><!-- Job Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LCP</masterLabel>
+            <translation><!-- LCP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LMS</masterLabel>
+            <translation><!-- LMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LTD</masterLabel>
+            <translation><!-- LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Longshore-Voc</masterLabel>
+            <translation><!-- Longshore-Voc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MCM-CAT</masterLabel>
+            <translation><!-- MCM-CAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MCM-On Site</masterLabel>
+            <translation><!-- MCM-On Site --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MCM-Tele</masterLabel>
+            <translation><!-- MCM-Tele --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mileage</masterLabel>
+            <translation><!-- Mileage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RUSH-MCM-On Site</masterLabel>
+            <translation><!-- RUSH-MCM-On Site --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RUSH-Mileage</masterLabel>
+            <translation><!-- RUSH-Mileage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RUSH-Travel/Wait</masterLabel>
+            <translation><!-- RUSH-Travel/Wait --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seminars</masterLabel>
+            <translation><!-- Seminars --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soc. Service</masterLabel>
+            <translation><!-- Soc. Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCM Triage</masterLabel>
+            <translation><!-- TCM Triage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation><!-- Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel/Wait</masterLabel>
+            <translation><!-- Travel/Wait --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VRC</masterLabel>
+            <translation><!-- VRC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- document QC&apos;s response to the kudos or error --></help>
+        <label><!-- QC Input --></label>
+        <name>QC_Input__c</name>
+    </fields>
+    <fields>
+        <help><!-- How were we made aware of the kudos or error? --></help>
+        <label><!-- Made aware by --></label>
+        <name>QC_Received__c</name>
+        <picklistValues>
+            <masterLabel>&apos;B&apos;</masterLabel>
+            <translation><!-- &apos;B&apos; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CMA report</masterLabel>
+            <translation><!-- CMA report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Manager</masterLabel>
+            <translation><!-- Case Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation><!-- Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation><!-- Individual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mentor review</masterLabel>
+            <translation><!-- Mentor review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peer processing</masterLabel>
+            <translation><!-- Peer processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QC Manager</masterLabel>
+            <translation><!-- QC Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>spot-check</masterLabel>
+            <translation><!-- spot-check --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Check this box if a QSU is required after each appointment --></help>
+        <label><!-- QSU Required --></label>
+        <name>QSU_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- QSU - Send to: --></label>
+        <name>QSU_Send_to__c</name>
+    </fields>
+    <fields>
+        <help><!-- select a QAS --></help>
+        <label><!-- Quality Assurance Specialist --></label>
+        <name>Quality_Assurance_Specialist__c</name>
+        <picklistValues>
+            <masterLabel>Allaire Jutting</masterLabel>
+            <translation><!-- Allaire Jutting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amanda Campos</masterLabel>
+            <translation><!-- Amanda Campos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Devon Asmus</masterLabel>
+            <translation><!-- Devon Asmus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eileen Jutting</masterLabel>
+            <translation><!-- Eileen Jutting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gavin Duarte</masterLabel>
+            <translation><!-- Gavin Duarte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shelagh Ghering</masterLabel>
+            <translation><!-- Shelagh Ghering --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RTW Comments --></label>
+        <name>RTW_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate --></label>
+        <name>Rate__c</name>
+        <picklistValues>
+            <masterLabel>Arizona</masterLabel>
+            <translation><!-- Arizona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>California</masterLabel>
+            <translation><!-- California --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DO NOT USE Arizona-WC</masterLabel>
+            <translation><!-- DO NOT USE Arizona-WC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DO NOT USE California-WC</masterLabel>
+            <translation><!-- DO NOT USE California-WC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DO NOT USE EWT</masterLabel>
+            <translation><!-- DO NOT USE EWT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DO NOT USE Ergo. Eval.</masterLabel>
+            <translation><!-- DO NOT USE Ergo. Eval. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DO NOT USE LCP</masterLabel>
+            <translation><!-- DO NOT USE LCP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DO NOT USE LMS</masterLabel>
+            <translation><!-- DO NOT USE LMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DO NOT USE Nevada-WC</masterLabel>
+            <translation><!-- DO NOT USE Nevada-WC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education</masterLabel>
+            <translation><!-- Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education: B2B</masterLabel>
+            <translation><!-- Education: B2B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education: RCFE</masterLabel>
+            <translation><!-- Education: RCFE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Educational Services</masterLabel>
+            <translation><!-- Educational Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ergonomic Evaluation</masterLabel>
+            <translation><!-- Ergonomic Evaluation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert Witness Testimony</masterLabel>
+            <translation><!-- Expert Witness Testimony --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interactive Process</masterLabel>
+            <translation><!-- Interactive Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Job Analysis</masterLabel>
+            <translation><!-- Job Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Labor Market Survey</masterLabel>
+            <translation><!-- Labor Market Survey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Life Care Plan</masterLabel>
+            <translation><!-- Life Care Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nevada</masterLabel>
+            <translation><!-- Nevada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Mexico</masterLabel>
+            <translation><!-- New Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seminars</masterLabel>
+            <translation><!-- Seminars --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telephonic</masterLabel>
+            <translation><!-- Telephonic --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Received Via: --></label>
+        <name>Received_from_CR_Rep_via__c</name>
+        <picklistValues>
+            <masterLabel>Call-In</masterLabel>
+            <translation><!-- Call-In --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fax</masterLabel>
+            <translation><!-- Fax --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-Person</masterLabel>
+            <translation><!-- In-Person --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USPS Mail</masterLabel>
+            <translation><!-- USPS Mail --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Indicate the date and time the CM Supervisor responded to initial email --></help>
+        <label><!-- Received response from CM Supervisor --></label>
+        <name>ReceivedresponsefromCM_Supervisor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date &amp; time received summary from CRR Manager --></help>
+        <label><!-- Received summary from CRR Manager --></label>
+        <name>ReceivedsummaryfromCRRManager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referral Charity --></label>
+        <name>Referral_Charity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referral Date --></label>
+        <name>Referral_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remain U&amp;C w/ Modifications --></label>
+        <name>Remain_U_C_w_Modifications__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remain U&amp;C w/o Modifications --></label>
+        <name>Remain_U_C_w_o_Modifications__c</name>
+    </fields>
+    <fields>
+        <label><!-- Restrictions unchanged because: --></label>
+        <name>Restrictions_unchanged_because__c</name>
+        <picklistValues>
+            <masterLabel>Comment</masterLabel>
+            <translation><!-- Comment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Condition at Work</masterLabel>
+            <translation><!-- Condition at Work --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Condition with Employee</masterLabel>
+            <translation><!-- Condition with Employee --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Restrictions unchanged comment: --></label>
+        <name>Restrictions_unchanged_comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rush Mileage Billings Total (B) --></label>
+        <name>RushMileageBillingsTotalB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rush Mileage Total (B) --></label>
+        <name>RushMileageTotalB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rush Non Professional Billings Total (B) --></label>
+        <name>RushNonProfessionalBillingsTotalB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rush Non Professional Hours (B) --></label>
+        <name>RushNonProfessionalHoursB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rush Professional Billings Total (B) --></label>
+        <name>RushProfessionalBillingsTotalB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rush Professional Hours (B) --></label>
+        <name>RushProfessionalHoursB__c</name>
+    </fields>
+    <fields>
+        <label><!-- ! --></label>
+        <name>Rush_Indicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rush --></label>
+        <name>Rush__c</name>
+    </fields>
+    <fields>
+        <label><!-- SDL Findings --></label>
+        <name>SDL_Findings__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDCTEST --></label>
+        <name>SFDCTEST__c</name>
+    </fields>
+    <fields>
+        <label><!-- SSN --></label>
+        <name>SSN__c</name>
+    </fields>
+    <fields>
+        <label><!-- S.S.N --></label>
+        <name>S_S_N_Web__c</name>
+    </fields>
+    <fields>
+        <label><!-- Salesforce ID --></label>
+        <name>Salesforce_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Senior Mentor --></label>
+        <name>Senior_Mentor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Tax Rate --></label>
+        <name>Service_Tax_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Specialty --></label>
+        <name>Specialty__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supervised by --></label>
+        <name>Supervised_by__c</name>
+        <picklistValues>
+            <masterLabel>Catherine Kvasnicka, RN, MSN</masterLabel>
+            <translation><!-- Catherine Kvasnicka, RN, MSN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jackie Ballinger, RN, CCM, BSN</masterLabel>
+            <translation><!-- Jackie Ballinger, RN, CCM, BSN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Julie Hurst, RN, CCM</masterLabel>
+            <translation><!-- Julie Hurst, RN, CCM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tanya Jutting-Loumakis, MA, CCM</masterLabel>
+            <translation><!-- Tanya Jutting-Loumakis, MA, CCM --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Date &amp; time when CM Supervisor received CM input. --></help>
+        <label><!-- Supervisor received CM input --></label>
+        <name>SupervisorreceivedCMinput__c</name>
+    </fields>
+    <fields>
+        <help><!-- getfeedback.com survey - completed --></help>
+        <label><!-- Survey-CP --></label>
+        <name>Survey_CP__c</name>
+    </fields>
+    <fields>
+        <help><!-- getfeedback.com survey - completed --></help>
+        <label><!-- Survey-EE --></label>
+        <name>Survey_EE__c</name>
+    </fields>
+    <fields>
+        <help><!-- getfeedback.com survey - completed --></help>
+        <label><!-- Survey-ER --></label>
+        <name>Survey_ER__c</name>
+    </fields>
+    <fields>
+        <label><!-- TTD Explanation --></label>
+        <name>TTD_Explanation__c</name>
+    </fields>
+    <fields>
+        <label><!-- TTD No --></label>
+        <name>TTD_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- TTD Yes --></label>
+        <name>TTD_Yes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box if this Case is a Task Assignment --></help>
+        <label><!-- Task Assignment --></label>
+        <name>Task_Assignment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ticket Close Date &amp; Time --></label>
+        <name>Ticket_Close_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ticket Open Date &amp; Time --></label>
+        <name>Ticket_Open_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Expenses --></label>
+        <name>TotalExpenses__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Mileage Billings Total (A) --></label>
+        <name>TotalMileageBillingsTotalA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Mileage Billings Total (B) --></label>
+        <name>TotalMileageBillingsTotalB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Mileage Total (A) --></label>
+        <name>TotalMileageTotalA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Mileage Total (B) --></label>
+        <name>TotalMileageTotalB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Mileage Total (CM) --></label>
+        <name>TotalMileageTotalCM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total NonProfessional Billings Total (B) --></label>
+        <name>TotalNonProfessionalBillingsTotalB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Non Professional Hours (A) --></label>
+        <name>TotalNonProfessionalHoursA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Non Professional Hours (B) --></label>
+        <name>TotalNonProfessionalHoursB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Non Professional Hours (CM) --></label>
+        <name>TotalNonProfessionalHoursCM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Professional Billings Total (B) --></label>
+        <name>TotalProfessionalBillingsTotalB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Professional Hours (A) --></label>
+        <name>TotalProfessionalHoursA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Professional Hours (B) --></label>
+        <name>TotalProfessionalHoursB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Professional Hours (CM) --></label>
+        <name>TotalProfessionalHoursCM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Rush Mileage Billings Total (B) --></label>
+        <name>TotalRushMileageBillingsTotalB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Rush Mileage Total (B) --></label>
+        <name>TotalRushMileageTotalB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Rush Non Prof Billings Total (B) --></label>
+        <name>TotalRushNonProfBillingsTotalB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Rush Non Professional Hours (B) --></label>
+        <name>TotalRushNonProfessionalHoursB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Rush Prof Billings Total (B) --></label>
+        <name>TotalRushProfBillingsTotalB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Rush Professional Hours (B) --></label>
+        <name>TotalRushProfessionalHoursB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Case Time Open --></label>
+        <name>Total_Case_Time_Open__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Invoiced --></label>
+        <name>Total_Invoiced__c</name>
+    </fields>
+    <fields>
+        <label><!-- Travel Authorizations/Limitations --></label>
+        <name>TravelAuthorizationsLimitations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Treating Physician Address --></label>
+        <name>Treating_Physician_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Treating Physician City --></label>
+        <name>Treating_Physician_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Treating Physician State --></label>
+        <name>Treating_Physician_State__c</name>
+        <picklistValues>
+            <masterLabel>Alabama</masterLabel>
+            <translation><!-- Alabama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alaska</masterLabel>
+            <translation><!-- Alaska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arizona</masterLabel>
+            <translation><!-- Arizona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arkansas</masterLabel>
+            <translation><!-- Arkansas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>California</masterLabel>
+            <translation><!-- California --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colorado</masterLabel>
+            <translation><!-- Colorado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connecticut</masterLabel>
+            <translation><!-- Connecticut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delaware</masterLabel>
+            <translation><!-- Delaware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>District of Columbia</masterLabel>
+            <translation><!-- District of Columbia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Florida</masterLabel>
+            <translation><!-- Florida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Georgia</masterLabel>
+            <translation><!-- Georgia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hawaii</masterLabel>
+            <translation><!-- Hawaii --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Idaho</masterLabel>
+            <translation><!-- Idaho --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Illinois</masterLabel>
+            <translation><!-- Illinois --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indiana</masterLabel>
+            <translation><!-- Indiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iowa</masterLabel>
+            <translation><!-- Iowa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kansas</masterLabel>
+            <translation><!-- Kansas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kentucky</masterLabel>
+            <translation><!-- Kentucky --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Louisiana</masterLabel>
+            <translation><!-- Louisiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maine</masterLabel>
+            <translation><!-- Maine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maryland</masterLabel>
+            <translation><!-- Maryland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Massachusetts</masterLabel>
+            <translation><!-- Massachusetts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michigan</masterLabel>
+            <translation><!-- Michigan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minnesota</masterLabel>
+            <translation><!-- Minnesota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mississippi</masterLabel>
+            <translation><!-- Mississippi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missouri</masterLabel>
+            <translation><!-- Missouri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montana</masterLabel>
+            <translation><!-- Montana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nebraska</masterLabel>
+            <translation><!-- Nebraska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nevada</masterLabel>
+            <translation><!-- Nevada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Hampshire</masterLabel>
+            <translation><!-- New Hampshire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Jersey</masterLabel>
+            <translation><!-- New Jersey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Mexico</masterLabel>
+            <translation><!-- New Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New York</masterLabel>
+            <translation><!-- New York --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Carolina</masterLabel>
+            <translation><!-- North Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Dakota</masterLabel>
+            <translation><!-- North Dakota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ohio</masterLabel>
+            <translation><!-- Ohio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oklahoma</masterLabel>
+            <translation><!-- Oklahoma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oregon</masterLabel>
+            <translation><!-- Oregon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pennsylvania</masterLabel>
+            <translation><!-- Pennsylvania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puerto Rico</masterLabel>
+            <translation><!-- Puerto Rico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rhode Island</masterLabel>
+            <translation><!-- Rhode Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Carolina</masterLabel>
+            <translation><!-- South Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Dakota</masterLabel>
+            <translation><!-- South Dakota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tennessee</masterLabel>
+            <translation><!-- Tennessee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Texas</masterLabel>
+            <translation><!-- Texas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utah</masterLabel>
+            <translation><!-- Utah --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vermont</masterLabel>
+            <translation><!-- Vermont --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virginia</masterLabel>
+            <translation><!-- Virginia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Washington</masterLabel>
+            <translation><!-- Washington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Virginia</masterLabel>
+            <translation><!-- West Virginia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wisconsin</masterLabel>
+            <translation><!-- Wisconsin --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Treating Physician Zip --></label>
+        <name>Treating_Physician_Zip__c</name>
+    </fields>
+    <fields>
+        <label><!-- Treating Physician --></label>
+        <name>Treating_Physician__c</name>
+    </fields>
+    <fields>
+        <label><!-- UR Vendor --></label>
+        <name>UR_Vendor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique Count --></label>
+        <name>Unique_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vocational Assessment --></label>
+        <name>Vocational_Assessment__c</name>
+    </fields>
+    <fields>
+        <label><!-- WC Carrier --></label>
+        <name>WC_Carrier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Comp Class Code --></label>
+        <name>WorkCompClassCode__c</name>
+    </fields>
+    <fields>
+        <help><!-- document the increment amount the NCM put in her 51 code case note --></help>
+        <label><!-- 1st Report Increment --></label>
+        <name>X1stReportIncrement__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1st Time Closed (Date/Time) --></label>
+        <name>X1st_Time_Closed_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1st Time Open (Date/Time) --></label>
+        <name>X1st_Time_Open_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1st Time Total Days Open --></label>
+        <name>X1st_Time_Total_Days_Open__c</name>
+    </fields>
+    <fields>
+        <help><!-- document the increment amount the NCM used for the 51 code case note entry --></help>
+        <label><!-- 2nd Report Increment --></label>
+        <name>X2ndReportIncrement__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2nd Time Closed (Date/Time) --></label>
+        <name>X2nd_Time_Closed_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2nd Time Open (Date/Time) --></label>
+        <name>X2nd_Time_Open_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2nd Time Total Days Open --></label>
+        <name>X2nd_Time_Total_Days_Open__c</name>
+    </fields>
+    <fields>
+        <help><!-- document the increment amount the NCM used for the 51 code case note entry --></help>
+        <label><!-- 3rd Report Increment --></label>
+        <name>X3rdReportIncrement__c</name>
+    </fields>
+    <fields>
+        <label><!-- 3rd Time Closed (Date/Time) --></label>
+        <name>X3rd_Time_Closed_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- 3rd Time Open (Date/Time) --></label>
+        <name>X3rd_Time_Open_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- 3rd Time Total Days Open --></label>
+        <name>X3rd_Time_Total_Days_Open__c</name>
+    </fields>
+    <fields>
+        <label><!-- 4th Time Closed (Date/Time) --></label>
+        <name>X4th_Time_Closed_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- 4th Time Open (Date/Time) --></label>
+        <name>X4th_Time_Open_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- 4th Time Total Days Open --></label>
+        <name>X4th_Time_Total_Days_Open__c</name>
+    </fields>
+    <fields>
+        <label><!-- 5th Time Closed (Date/Time) --></label>
+        <name>X5th_Time_Closed_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- 5th Time Open (Date/Time) --></label>
+        <name>X5th_Time_Open_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- 5th Time Total Days Open --></label>
+        <name>X5th_Time_Total_Days_Open__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zip --></label>
+        <name>Zip__c</name>
+    </fields>
+    <layouts>
+        <layout>Blank Intentionally</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CSL Case Layout</layout>
+        <sections>
+            <label><!-- ADDITIONAL INSTRUCTIONS --></label>
+            <section>ADDITIONAL INSTRUCTIONS</section>
+        </sections>
+        <sections>
+            <label><!-- ADMINSTRATIVE INFORMATION --></label>
+            <section>ADMINSTRATIVE INFORMATION</section>
+        </sections>
+        <sections>
+            <label><!-- Additional Section --></label>
+            <section>Additional Section</section>
+        </sections>
+        <sections>
+            <label><!-- CASE TIME OPEN --></label>
+            <section>CASE TIME OPEN</section>
+        </sections>
+        <sections>
+            <label><!-- CASE TYPE --></label>
+            <section>CASE TYPE</section>
+        </sections>
+        <sections>
+            <label><!-- CUSTOMER SPECIAL GUIDELINES --></label>
+            <section>CUSTOMER SPECIAL GUIDELINES</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- PROJECT DETAILS --></label>
+            <section>PROJECT DETAILS</section>
+        </sections>
+        <sections>
+            <label><!-- SURVEYS COMPLETED --></label>
+            <section>SURVEYS COMPLETED</section>
+        </sections>
+        <sections>
+            <label><!-- TYPE OF SERVICES REQUESTED --></label>
+            <section>TYPE OF SERVICES REQUESTED</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Case Layout</layout>
+        <sections>
+            <label><!-- 51 - INITIAL DATA/INFO COLLECTION DOCUMENT - MAX BILLABLE AMOUNT: 0.5 --></label>
+            <section>51 - INITIAL DATA/INFO COLLECTION DOCUMENT - MAX BILLABLE AMOUNT: 0.5</section>
+        </sections>
+        <sections>
+            <label><!-- ADDITIONAL INSTRUCTIONS --></label>
+            <section>ADDITIONAL INSTRUCTIONS</section>
+        </sections>
+        <sections>
+            <label><!-- ADMINSTRATIVE INFORMATION --></label>
+            <section>ADMINSTRATIVE INFORMATION</section>
+        </sections>
+        <sections>
+            <label><!-- ATTORNEY INFORMATION- AT TIME OF REFERRAL --></label>
+            <section>ATTORNEY INFORMATION- AT TIME OF REFERRAL</section>
+        </sections>
+        <sections>
+            <label><!-- Additional Section --></label>
+            <section>Additional Section</section>
+        </sections>
+        <sections>
+            <label><!-- CASE TIME OPEN --></label>
+            <section>CASE TIME OPEN</section>
+        </sections>
+        <sections>
+            <label><!-- CASE TYPE --></label>
+            <section>CASE TYPE</section>
+        </sections>
+        <sections>
+            <label><!-- CUSTOMER SPECIAL GUIDELINES --></label>
+            <section>CUSTOMER SPECIAL GUIDELINES</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- DIAGNOSIS &amp; INJURY INFORMATION --></label>
+            <section>DIAGNOSIS &amp; INJURY INFORMATION</section>
+        </sections>
+        <sections>
+            <label><!-- EMPLOYER INFORMATION --></label>
+            <section>EMPLOYER INFORMATION</section>
+        </sections>
+        <sections>
+            <label><!-- INTERNATIONAL CLASSIFICATION of DISEASE (ICD) --></label>
+            <section>INTERNATIONAL CLASSIFICATION of DISEASE (ICD)</section>
+        </sections>
+        <sections>
+            <label><!-- OFFICIAL DISABILITY GUIDELINES --></label>
+            <section>OFFICIAL DISABILITY GUIDELINES</section>
+        </sections>
+        <sections>
+            <label><!-- PRIMARY TREATING PHYSICIAN- AT TIME OF REFERRAL --></label>
+            <section>PRIMARY TREATING PHYSICIAN- AT TIME OF REFERRAL</section>
+        </sections>
+        <sections>
+            <label><!-- QRS - Case Report Mailing Instructions --></label>
+            <section>QRS - Case Report Mailing Instructions</section>
+        </sections>
+        <sections>
+            <label><!-- QRS - Invoice Mailing Instructions --></label>
+            <section>QRS - Invoice Mailing Instructions</section>
+        </sections>
+        <sections>
+            <label><!-- QSU &amp; EUF --></label>
+            <section>QSU &amp; EUF</section>
+        </sections>
+        <sections>
+            <label><!-- SURVEYS COMPLETED --></label>
+            <section>SURVEYS COMPLETED</section>
+        </sections>
+        <sections>
+            <label><!-- TYPE OF SERVICES REQUESTED- AT TIME OF REFERRAL --></label>
+            <section>TYPE OF SERVICES REQUESTED- AT TIME OF REFERRAL</section>
+        </sections>
+        <sections>
+            <label><!-- Travel Authorizations/Limitations --></label>
+            <section>Travel Authorizations/Limitations</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Closed Referral</layout>
+        <sections>
+            <label><!-- 51 - INITIAL DATA/INFO COLLECTION DOCUMENT - MAX ALLOWABLE UNITS: 0.5 --></label>
+            <section>51 - INITIAL DATA/INFO COLLECTION DOCUMENT - MAX ALLOWABLE UNITS: 0.5</section>
+        </sections>
+        <sections>
+            <label><!-- ADDITIONAL INSTRUCTIONS --></label>
+            <section>ADDITIONAL INSTRUCTIONS</section>
+        </sections>
+        <sections>
+            <label><!-- ADMINSTRATIVE INFORMATION --></label>
+            <section>ADMINSTRATIVE INFORMATION</section>
+        </sections>
+        <sections>
+            <label><!-- ATTORNEY INFORMATION- AT TIME OF REFERRAL --></label>
+            <section>ATTORNEY INFORMATION- AT TIME OF REFERRAL</section>
+        </sections>
+        <sections>
+            <label><!-- Activity Unit Totals and Customer Billing --></label>
+            <section>Activity Unit Totals and Customer Billing</section>
+        </sections>
+        <sections>
+            <label><!-- Additional Section --></label>
+            <section>Additional Section</section>
+        </sections>
+        <sections>
+            <label><!-- Approved Activity Units --></label>
+            <section>Approved Activity Units</section>
+        </sections>
+        <sections>
+            <label><!-- CASE TIME OPEN --></label>
+            <section>CASE TIME OPEN</section>
+        </sections>
+        <sections>
+            <label><!-- CASES-REFERRALS --></label>
+            <section>CASES-REFERRALS</section>
+        </sections>
+        <sections>
+            <label><!-- CUSTOMER SPECIAL GUIDELINES --></label>
+            <section>CUSTOMER SPECIAL GUIDELINES</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- DIAGNOSIS &amp; INJURY INFORMATION --></label>
+            <section>DIAGNOSIS &amp; INJURY INFORMATION</section>
+        </sections>
+        <sections>
+            <label><!-- EMPLOYER INFORMATION --></label>
+            <section>EMPLOYER INFORMATION</section>
+        </sections>
+        <sections>
+            <label><!-- Grand Totals - Activity Units and Customer Billing --></label>
+            <section>Grand Totals - Activity Units and Customer Billing</section>
+        </sections>
+        <sections>
+            <label><!-- INTERNATIONAL CLASSIFICATION of DISEASE (ICD) --></label>
+            <section>INTERNATIONAL CLASSIFICATION of DISEASE (ICD)</section>
+        </sections>
+        <sections>
+            <label><!-- OFFICIAL DISABILITY GUIDELINES --></label>
+            <section>OFFICIAL DISABILITY GUIDELINES</section>
+        </sections>
+        <sections>
+            <label><!-- PRIMARY TREATING PHYSICIAN - AT TIME OF REFERRAL --></label>
+            <section>PRIMARY TREATING PHYSICIAN - AT TIME OF REFERRAL</section>
+        </sections>
+        <sections>
+            <label><!-- QRS - Case Report Mailing Instructions --></label>
+            <section>QRS - Case Report Mailing Instructions</section>
+        </sections>
+        <sections>
+            <label><!-- QRS - Invoice Mailing Instructions --></label>
+            <section>QRS - Invoice Mailing Instructions</section>
+        </sections>
+        <sections>
+            <label><!-- SURVEYS COMPLETED --></label>
+            <section>SURVEYS COMPLETED</section>
+        </sections>
+        <sections>
+            <label><!-- TYPE OF SERVICES REQUESTED- AT TIME OF REFERRAL --></label>
+            <section>TYPE OF SERVICES REQUESTED- AT TIME OF REFERRAL</section>
+        </sections>
+        <sections>
+            <label><!-- Travel Authorizations/Limitations --></label>
+            <section>Travel Authorizations/Limitations</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Customer Layout</layout>
+        <sections>
+            <label><!-- CASE MANAGER --></label>
+            <section>CASE MANAGER</section>
+        </sections>
+        <sections>
+            <label><!-- CASES-CUSTOMER --></label>
+            <section>CASES-CUSTOMER</section>
+        </sections>
+        <sections>
+            <label><!-- CM SUPERVISOR ASSESSMENT AND RECOMMENDATION(S) --></label>
+            <section>CM SUPERVISOR ASSESSMENT AND RECOMMENDATION(S)</section>
+        </sections>
+        <sections>
+            <label><!-- CUSTOMER RELATIONS SUMMARY --></label>
+            <section>CUSTOMER RELATIONS SUMMARY</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- DETAILS - CASE MANAGER INPUT --></label>
+            <section>DETAILS - CASE MANAGER INPUT</section>
+        </sections>
+        <sections>
+            <label><!-- DETAILS - INCIDENT INTAKE --></label>
+            <section>DETAILS - INCIDENT INTAKE</section>
+        </sections>
+        <sections>
+            <label><!-- DETAILS - KUDOS INTAKE --></label>
+            <section>DETAILS - KUDOS INTAKE</section>
+        </sections>
+        <sections>
+            <label><!-- DETAILS OF CONCERN(S) / ISSUE(S) --></label>
+            <section>DETAILS OF CONCERN(S) / ISSUE(S)</section>
+        </sections>
+        <sections>
+            <label><!-- DO NOT USE --></label>
+            <section>DO NOT USE</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- MANAGER CLOSING SUMMARY / END RESULT / PROVIDE TO HUMAN RESOURCES --></label>
+            <section>MANAGER CLOSING SUMMARY / END RESULT / PROVIDE TO HUMAN RESOURCES</section>
+        </sections>
+        <sections>
+            <label><!-- MEDICAL CASE INFORMATION --></label>
+            <section>MEDICAL CASE INFORMATION</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>IT Ticketing</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- DO NOT USE --></label>
+            <section>DO NOT USE</section>
+        </sections>
+        <sections>
+            <label><!-- Header --></label>
+            <section>Header</section>
+        </sections>
+        <sections>
+            <label><!-- IT - TICKET INFORMATION --></label>
+            <section>IT - TICKET INFORMATION</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Mentor Case Layout</layout>
+        <sections>
+            <label><!-- 51 - INITIAL DATA/INFO COLLECTION DOCUMENT - MAX BILLABLE AMOUNT: 0.5 --></label>
+            <section>51 - INITIAL DATA/INFO COLLECTION DOCUMENT - MAX BILLABLE AMOUNT: 0.5</section>
+        </sections>
+        <sections>
+            <label><!-- ADDITIONAL INSTRUCTIONS --></label>
+            <section>ADDITIONAL INSTRUCTIONS</section>
+        </sections>
+        <sections>
+            <label><!-- ADMINISTRATIVE INFORMATION --></label>
+            <section>ADMINISTRATIVE INFORMATION</section>
+        </sections>
+        <sections>
+            <label><!-- ATTORNEY INFORMATION- AT TIME OF REFERRAL --></label>
+            <section>ATTORNEY INFORMATION- AT TIME OF REFERRAL</section>
+        </sections>
+        <sections>
+            <label><!-- Additional Section --></label>
+            <section>Additional Section</section>
+        </sections>
+        <sections>
+            <label><!-- CASE INFORMATION --></label>
+            <section>CASE INFORMATION</section>
+        </sections>
+        <sections>
+            <label><!-- CUSTOMER SPECIAL GUIDELINES --></label>
+            <section>CUSTOMER SPECIAL GUIDELINES</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- DIAGNOSTICS &amp; INJURY INFORMATION --></label>
+            <section>DIAGNOSTICS &amp; INJURY INFORMATION</section>
+        </sections>
+        <sections>
+            <label><!-- EMPLOYER INFORMATION --></label>
+            <section>EMPLOYER INFORMATION</section>
+        </sections>
+        <sections>
+            <label><!-- INTERNATIONAL CLASSIFICATION of DISEASE (ICD) --></label>
+            <section>INTERNATIONAL CLASSIFICATION of DISEASE (ICD)</section>
+        </sections>
+        <sections>
+            <label><!-- OFFICIAL DISABILITY GUIDELINES --></label>
+            <section>OFFICIAL DISABILITY GUIDELINES</section>
+        </sections>
+        <sections>
+            <label><!-- PRIMARY TREATING PHYSICIAN- AT TIME OF REFERRAL --></label>
+            <section>PRIMARY TREATING PHYSICIAN- AT TIME OF REFERRAL</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Nurse Case Layout</layout>
+        <sections>
+            <label><!-- ADDITIONAL INSTRUCTIONS --></label>
+            <section>ADDITIONAL INSTRUCTIONS</section>
+        </sections>
+        <sections>
+            <label><!-- ADMINISTRATIVE INFORMATION --></label>
+            <section>ADMINISTRATIVE INFORMATION</section>
+        </sections>
+        <sections>
+            <label><!-- ATTORNEY INFORMATION- AT TIME OF REFERRAL --></label>
+            <section>ATTORNEY INFORMATION- AT TIME OF REFERRAL</section>
+        </sections>
+        <sections>
+            <label><!-- Additional Section --></label>
+            <section>Additional Section</section>
+        </sections>
+        <sections>
+            <label><!-- CASE INFORMATION --></label>
+            <section>CASE INFORMATION</section>
+        </sections>
+        <sections>
+            <label><!-- CUSTOMER SPECIAL GUIDELINES --></label>
+            <section>CUSTOMER SPECIAL GUIDELINES</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- DIAGNOSTICS &amp; INJURY INFORMATION --></label>
+            <section>DIAGNOSTICS &amp; INJURY INFORMATION</section>
+        </sections>
+        <sections>
+            <label><!-- EMPLOYER INFORMATION --></label>
+            <section>EMPLOYER INFORMATION</section>
+        </sections>
+        <sections>
+            <label><!-- INTERNATIONAL CLASSIFICATION of DISEASE (ICD) --></label>
+            <section>INTERNATIONAL CLASSIFICATION of DISEASE (ICD)</section>
+        </sections>
+        <sections>
+            <label><!-- OFFICIAL DISABILITY GUIDELINES --></label>
+            <section>OFFICIAL DISABILITY GUIDELINES</section>
+        </sections>
+        <sections>
+            <label><!-- PRIMARY TREATING PHYSICIAN- AT TIME OF REFERRAL --></label>
+            <section>PRIMARY TREATING PHYSICIAN- AT TIME OF REFERRAL</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>QC Dept Layout</layout>
+        <sections>
+            <label><!-- CASES-QC DEPARTMENT --></label>
+            <section>CASES-QC DEPARTMENT</section>
+        </sections>
+        <sections>
+            <label><!-- CUSTOMER INFORMATION --></label>
+            <section>CUSTOMER INFORMATION</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- DO NOT USE --></label>
+            <section>DO NOT USE</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- KUDOS DETAIL(S) --></label>
+            <section>KUDOS DETAIL(S)</section>
+        </sections>
+        <sections>
+            <label><!-- QC INPUT / QC MANAGER INPUT --></label>
+            <section>QC INPUT / QC MANAGER INPUT</section>
+        </sections>
+        <sections>
+            <label><!-- QC NAME --></label>
+            <section>QC NAME</section>
+        </sections>
+        <sections>
+            <label><!-- QC PROCESSING ERROR(S) --></label>
+            <section>QC PROCESSING ERROR(S)</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Senior Nurse Case Layout</layout>
+        <sections>
+            <label><!-- 51 - INITIAL DATA/INFO COLLECTION DOCUMENT - MAX BILLABLE AMOUNT: 0.5 --></label>
+            <section>51 - INITIAL DATA/INFO COLLECTION DOCUMENT - MAX BILLABLE AMOUNT: 0.5</section>
+        </sections>
+        <sections>
+            <label><!-- ADDITIONAL INSTRUCTIONS --></label>
+            <section>ADDITIONAL INSTRUCTIONS</section>
+        </sections>
+        <sections>
+            <label><!-- ADMINISTRATIVE INFORMATION --></label>
+            <section>ADMINISTRATIVE INFORMATION</section>
+        </sections>
+        <sections>
+            <label><!-- ATTORNEY INFORMATION- AT TIME OF REFERRAL --></label>
+            <section>ATTORNEY INFORMATION- AT TIME OF REFERRAL</section>
+        </sections>
+        <sections>
+            <label><!-- Additional Section --></label>
+            <section>Additional Section</section>
+        </sections>
+        <sections>
+            <label><!-- CASE INFORMATION --></label>
+            <section>CASE INFORMATION</section>
+        </sections>
+        <sections>
+            <label><!-- CASES-REFERRALS --></label>
+            <section>CASES-REFERRALS</section>
+        </sections>
+        <sections>
+            <label><!-- CUSTOMER SPECIAL GUIDELINES --></label>
+            <section>CUSTOMER SPECIAL GUIDELINES</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- DIAGNOSTICS &amp; INJURY INFORMATION --></label>
+            <section>DIAGNOSTICS &amp; INJURY INFORMATION</section>
+        </sections>
+        <sections>
+            <label><!-- EMPLOYER INFORMATION --></label>
+            <section>EMPLOYER INFORMATION</section>
+        </sections>
+        <sections>
+            <label><!-- INTERNATIONAL CLASSIFICATION of DISEASE (ICD) --></label>
+            <section>INTERNATIONAL CLASSIFICATION of DISEASE (ICD)</section>
+        </sections>
+        <sections>
+            <label><!-- OFFICIAL DISABILITY GUIDELINES --></label>
+            <section>OFFICIAL DISABILITY GUIDELINES</section>
+        </sections>
+        <sections>
+            <label><!-- PRIMARY TREATING PHYSICIAN- AT TIME OF REFERRAL --></label>
+            <section>PRIMARY TREATING PHYSICIAN- AT TIME OF REFERRAL</section>
+        </sections>
+        <sections>
+            <label><!-- SURVEYS COMPLETED --></label>
+            <section>SURVEYS COMPLETED</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- NewChildCase --></label>
+        <name>NewChildCase</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Records that handle all QC Dept kudos and errors --></description>
+        <label><!-- Case-QC --></label>
+        <name>Case_QC</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Cases-Closed Referrals --></label>
+        <name>CasesClosedReferrals</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Cases-Customers --></label>
+        <name>CasesCustomers</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Cases-Referrals --></label>
+        <name>CasesReferrals</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Cases - CSL --></label>
+        <name>Cases_CSL</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- IT ticketing system --></description>
+        <label><!-- Cases-IT --></label>
+        <name>Cases_IT</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Cases-Reopen Referrals --></label>
+        <name>Cases_Reopen_Referrals</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- If approval for NCM is set to True the Approval Date is required. --></errorMessage>
+        <name>Approval_for_NCM_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Once a Case has been closed, its status cannot be changed.  Please cancel and use the Re-Open button to Open a new case, or contact your Manager. --></errorMessage>
+        <name>ClosedCaseLocked</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide a reason for this Case being closed. --></errorMessage>
+        <name>ClosedCaseRequiresCaseReason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Comment is selected as Reason Unchanged please ensure you enter a comment. --></errorMessage>
+        <name>Restrictions_Unchanged_Because</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- ReOpen --></label>
+        <name>ReOpen</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_an_Email --></label>
+        <name>Send_an_Email</name>
+    </webLinks>
+</CustomObjectTranslation>

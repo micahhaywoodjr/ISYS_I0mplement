@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>Queue: Unassigned Cases</name>
+    <queueMembers>
+        <users>
+            <user>adam.thomas@isyscm.com</user>
+            <user>britt.stickney@isyscm.com</user>
+            <user>cathan.cokas@isyscm.com</user>
+            <user>christopher.evans@isyscm.com</user>
+            <user>diane.campos@isyscm.com</user>
+            <user>gregory.moore@isyscm.com</user>
+            <user>herbert.vanpatten@isyscm.com</user>
+            <user>jacqueline.robinette@isyscm.com</user>
+            <user>kerry.hennessy@isyscm.com</user>
+            <user>miguel.alcocer@isyscm.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

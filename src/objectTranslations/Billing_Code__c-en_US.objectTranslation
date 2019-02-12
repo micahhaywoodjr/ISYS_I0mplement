@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Activity Code</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Activity Codes</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Activity Codes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- B Max --></label>
+        <name>AdminMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- B Min --></label>
+        <name>AdminMin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code Status --></label>
+        <name>CodeStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Billing Code --></label>
+        <name>DefaultBillingCode__c</name>
+        <relationshipLabel><!-- Activity Codes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- DefaultCode --></label>
+        <name>DefaultCode__c</name>
+    </fields>
+    <fields>
+        <help><!-- If specified, when editing a Case Note Entry with this billing code, the user will have the option of relating an Open Activity and Attachment. --></help>
+        <label><!-- Link Communication --></label>
+        <name>LinkCommunication__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max --></label>
+        <name>Max__c</name>
+    </fields>
+    <fields>
+        <label><!-- Min --></label>
+        <name>Min__c</name>
+    </fields>
+    <layouts>
+        <layout>Billing Code Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>System Admin Billing Code Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- If this is not a default billing code, the lookup to the parent default billing code is required. --></errorMessage>
+        <name>DefaultBillingCodeRequiredIfNotADefault</name>
+    </validationRules>
+</CustomObjectTranslation>

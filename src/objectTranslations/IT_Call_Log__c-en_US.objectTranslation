@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>IT Call Log</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>IT Call Logs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Date of Call --></label>
+        <name>Date_of_Call__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee --></label>
+        <name>Employee__c</name>
+        <relationshipLabel><!-- IT Call Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quarterly Call Detail --></label>
+        <name>Quarterly_Call_Detail__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

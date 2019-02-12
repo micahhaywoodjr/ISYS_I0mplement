@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>JitterbitSettings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>JitterbitSettings</value>
+    </caseValues>
+    <fields>
+        <label><!-- AcctSyncLastRunDate --></label>
+        <name>AcctSyncLastRunDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- InvoiceBLastRunDate --></label>
+        <name>InvoiceBLastRunDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- QBBalanceLastRunDate --></label>
+        <name>QBBalanceLastRunDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- QBSyncLastRunDate --></label>
+        <name>QBSyncLastRunDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- TimeSlipALastRunDate --></label>
+        <name>TimeSlipALastRunDate__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>ISYS Response Rules</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Web</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>referrals@isyscm.com</senderEmail>
+            <senderName>ISYS Referrals</senderName>
+            <template>Case_Templates/New_Case_Response_Web_to_Case</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

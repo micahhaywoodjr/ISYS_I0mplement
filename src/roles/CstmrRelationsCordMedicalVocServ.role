@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>Cstmr Relations Cord Medical &amp; Voc Serv</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Cstmr Relations Cord Medical &amp; Voc Serv</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>ManagerCustomerRelations</parentRole>
+</Role>

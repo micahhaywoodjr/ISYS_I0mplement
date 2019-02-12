@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CM Metric</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CM Metrics</value>
+    </caseValues>
+    <fields>
+        <label><!-- A &amp; B Prod Rate Diff --></label>
+        <name>A_B_Prod_Rate_Diff__c</name>
+    </fields>
+    <fields>
+        <label><!-- Area --></label>
+        <name>Area__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- (B) Total Hours-Prod Rate --></label>
+        <name>B_Total_Hours_Prod_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- (B) Total Hours --></label>
+        <name>B_Total_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closed Cases --></label>
+        <name>ClosedCases__c</name>
+    </fields>
+    <fields>
+        <label><!-- Covering Hours (A) --></label>
+        <name>CoveringHoursA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Covering Hours (B) --></label>
+        <name>CoveringHoursB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Covering Hours (Nurse) --></label>
+        <name>CoveringHoursNurse__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Month --></label>
+        <name>CurrentMonth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Days of Month --></label>
+        <name>CurrentsDaysofMonth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Daily Utilization --></label>
+        <name>DailyUtilization__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee --></label>
+        <name>Employee__c</name>
+        <relationshipLabel><!-- CM Metrics --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>ExternalId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Active? --></label>
+        <name>IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Metric Date --></label>
+        <name>MetricDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monthly Utilization Target --></label>
+        <name>MonthlyUtilizationTarget__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monthly Prod Rate --></label>
+        <name>Monthly_Prod_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monthly Prod % --></label>
+        <name>Monthly_Prod__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non-Prof. Hours (A) - Prod Rate --></label>
+        <name>NonProfHoursAProdRate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non-Prof. Hours (B) - Prod Rate --></label>
+        <name>NonProfHoursBProdRate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Open Cases --></label>
+        <name>OpenCases__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Hours (A) --></label>
+        <name>PrimaryHoursA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Hours (B) --></label>
+        <name>PrimaryHoursB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Hours (Nurse) --></label>
+        <name>PrimaryHoursNurse__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prof. Hours (A) - Prod Rate --></label>
+        <name>ProfHoursAProdRate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prof. Hours (B) - Prod Rate --></label>
+        <name>ProfHoursBProdRate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cases --></label>
+        <name>TotalCases__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Expenses (A) --></label>
+        <name>TotalExpensesA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Expenses (B) --></label>
+        <name>TotalExpensesB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Expenses (C-A) --></label>
+        <name>TotalExpensesCA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Expenses (C-B) --></label>
+        <name>TotalExpensesCB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Expenses (C-Nurse) --></label>
+        <name>TotalExpensesCNurse__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Expenses (Nurse) --></label>
+        <name>TotalExpensesNurse__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Hours (A) - Util Rate --></label>
+        <name>TotalHoursAUtilRate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Hours (A) --></label>
+        <name>TotalHoursA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Hours (B) - Util Rate --></label>
+        <name>TotalHoursBUtilRate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Hours (B) --></label>
+        <name>TotalHoursB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Hours (Nurse) --></label>
+        <name>TotalHoursNurse__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Mileage (A) --></label>
+        <name>TotalMileageA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Mileage (B) --></label>
+        <name>TotalMileageB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Mileage (C-A) --></label>
+        <name>TotalMileageCA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Mileage (C-B) --></label>
+        <name>TotalMileageCB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Mileage (C-Nurse) --></label>
+        <name>TotalMileageCNurse__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Mileage (Nurse) --></label>
+        <name>TotalMileageNurse__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Professional Hours (A) --></label>
+        <name>TotalProfessionalHoursA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Professional Hours (B) --></label>
+        <name>TotalProfessionalHoursB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Professional Hours (C-A) --></label>
+        <name>TotalProfessionalHoursCA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Professional Hours (C-B) --></label>
+        <name>TotalProfessionalHoursCB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Professional Hours (C-Nurse) --></label>
+        <name>TotalProfessionalHoursCNurse__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Professional Hours (Nurse) --></label>
+        <name>TotalProfessionalHoursNurse__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Travel/Wait Hours (A) --></label>
+        <name>TotalTravelWaitHoursA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Travel/Wait Hours (B) --></label>
+        <name>TotalTravelWaitHoursB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Travel/Wait Hours (C-A) --></label>
+        <name>TotalTravelWaitHoursCA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Travel/Wait Hours (C-B) --></label>
+        <name>TotalTravelWaitHoursCB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Travel/Wait Hours (C-Nurse) --></label>
+        <name>TotalTravelWaitHoursCNurse__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Travel/Wait Hours (Nurse) --></label>
+        <name>TotalTravelWaitHoursNurse__c</name>
+    </fields>
+    <fields>
+        <label><!-- (A) Total Hours Prod Rate --></label>
+        <name>Total_Hours_A_Prod_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- (A) Total Hours --></label>
+        <name>Total_Hours_A__c</name>
+    </fields>
+    <layouts>
+        <layout>Area Metric Layout</layout>
+        <sections>
+            <label><!-- Case Information --></label>
+            <section>Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Covering Hours Information --></label>
+            <section>Covering Hours Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Primary Hours Information --></label>
+            <section>Primary Hours Information</section>
+        </sections>
+        <sections>
+            <label><!-- Total Hours Information --></label>
+            <section>Total Hours Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>User Metric Layout</layout>
+        <sections>
+            <label><!-- Case Information --></label>
+            <section>Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Covering Hours Information --></label>
+            <section>Covering Hours Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Primary Hours Information --></label>
+            <section>Primary Hours Information</section>
+        </sections>
+        <sections>
+            <label><!-- Total Hours Information --></label>
+            <section>Total Hours Information</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Area Metric --></label>
+        <name>AreaMetric</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- User Metric --></label>
+        <name>UserMetric</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

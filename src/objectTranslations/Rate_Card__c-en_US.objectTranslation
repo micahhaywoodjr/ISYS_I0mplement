@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Rate Card</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Rate Cards</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Rate Cards --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Last Modified Date Only --></label>
+        <name>LastModifiedDateOnly__c</name>
+    </fields>
+    <fields>
+        <label><!-- MCM-On Site --></label>
+        <name>MCM_On_Site__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mileage Rate --></label>
+        <name>Mileage_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Professional Rate --></label>
+        <name>Professional_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Services Mileage Rate --></label>
+        <name>Rush_Mileage_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Services Professional Rate --></label>
+        <name>Rush_Professional_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Services Travel/Wait Rate --></label>
+        <name>Rush_Travel_Wait_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Travel/Wait Rate --></label>
+        <name>Travel_Wait_Rate__c</name>
+    </fields>
+    <layouts>
+        <layout>Rate Card Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Rate Information --></label>
+            <section>Rate Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

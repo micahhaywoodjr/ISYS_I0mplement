@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <links>Case_Report_Approval_Status</links>
+    <links>Open_Cases_by_CM</links>
+    <pageComponentType>links</pageComponentType>
+</HomePageComponent>

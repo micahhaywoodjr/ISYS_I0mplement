@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Healthcare Provider</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Healthcare Providers</value>
+    </caseValues>
+    <fields>
+        <label><!-- Area Code --></label>
+        <name>AreaCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Area Region --></label>
+        <name>AreaRegion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Area --></label>
+        <name>Area__c</name>
+        <relationshipLabel><!-- Healthcare Providers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Healthcare Providers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- City Of Primary Treater --></label>
+        <name>City_Of_Primary_Treater__c</name>
+    </fields>
+    <fields>
+        <help><!-- Healthcare Provider --></help>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Healthcare Providers --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Designate a Healthcare Provider as inactive when the Employee is no longer treating with them --></help>
+        <label><!-- Inactive --></label>
+        <name>Inactive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mailing Address --></label>
+        <name>Mailing_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mileage --></label>
+        <name>Mileage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>Phone__c</name>
+    </fields>
+    <fields>
+        <help><!-- Only one physician can be designated as Primary Health Care Provider. --></help>
+        <label><!-- Primary --></label>
+        <name>Primary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Provider Status --></label>
+        <name>ProviderStatus__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Region Area --></label>
+        <name>Region_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+        <picklistValues>
+            <masterLabel>Arizona</masterLabel>
+            <translation><!-- Arizona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bakersfield Area</masterLabel>
+            <translation><!-- Bakersfield Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fresno North &amp; South</masterLabel>
+            <translation><!-- Fresno North &amp; South --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Imperial County</masterLabel>
+            <translation><!-- Imperial County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inland Empire-Central</masterLabel>
+            <translation><!-- Inland Empire-Central --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inland Empire-South</masterLabel>
+            <translation><!-- Inland Empire-South --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA Central</masterLabel>
+            <translation><!-- LA Central --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA Southbay</masterLabel>
+            <translation><!-- LA Southbay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA Southeast</masterLabel>
+            <translation><!-- LA Southeast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA Valley</masterLabel>
+            <translation><!-- LA Valley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Long Beach/Pasadena</masterLabel>
+            <translation><!-- Long Beach/Pasadena --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nevada</masterLabel>
+            <translation><!-- Nevada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OC North</masterLabel>
+            <translation><!-- OC North --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OC South</masterLabel>
+            <translation><!-- OC South --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oakland/East Bay</masterLabel>
+            <translation><!-- Oakland/East Bay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD Area North</masterLabel>
+            <translation><!-- SD Area North --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD Area South</masterLabel>
+            <translation><!-- SD Area South --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SF Central &amp; North</masterLabel>
+            <translation><!-- SF Central &amp; North --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SF South</masterLabel>
+            <translation><!-- SF South --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sacto Central</masterLabel>
+            <translation><!-- Sacto Central --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sacto North</masterLabel>
+            <translation><!-- Sacto North --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Jose &amp; South</masterLabel>
+            <translation><!-- San Jose &amp; South --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SanGabriel Valley</masterLabel>
+            <translation><!-- SanGabriel Valley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Santa Barbara+North</masterLabel>
+            <translation><!-- Santa Barbara+North --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ventura/Oxnard Area</masterLabel>
+            <translation><!-- Ventura/Oxnard Area --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Specialty of healthcare provider --></help>
+        <label><!-- Specialty --></label>
+        <name>Specialty__c</name>
+    </fields>
+    <layouts>
+        <layout>Other Healthcare Provider Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Healthcare Provider Details --></label>
+            <section>Healthcare Provider Details</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- This case already has an Active Primary Provider associated to it, please correct the data and try again or contact your System Administrator. --></errorMessage>
+        <name>OneActivePrimaryProviderAllowed</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- New_Other_Healthcare_Provider --></label>
+        <name>New_Other_Healthcare_Provider</name>
+    </webLinks>
+</CustomObjectTranslation>

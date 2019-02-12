@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Payroll</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Payroll</value>
+    </caseValues>
+    <fields>
+        <label><!-- ApprovedProfBillableHoursCNE --></label>
+        <name>ApprovedProfBillableHoursCNE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved Prof Billable Hours --></label>
+        <name>ApprovedProfBillableHours__c</name>
+    </fields>
+    <fields>
+        <label><!-- ApprovedTWBillableHoursCNE --></label>
+        <name>ApprovedTWBillableHoursCNE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved T/W Billable Hours --></label>
+        <name>ApprovedTWBillableHours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Number --></label>
+        <name>CaseNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Submitted --></label>
+        <name>DateSubmitted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee --></label>
+        <name>Employee__c</name>
+        <relationshipLabel><!-- Payroll --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IsUserAdded --></label>
+        <name>IsUserAdded__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opp Owner Id --></label>
+        <name>OppOwnerId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Payroll --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Report Number --></label>
+        <name>ReportNumber__c</name>
+    </fields>
+    <layouts>
+        <layout>Payroll Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

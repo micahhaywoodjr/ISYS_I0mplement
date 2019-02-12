@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>PayrollTemp</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>PayrollTemp</value>
+    </caseValues>
+    <fields>
+        <label><!-- ApprovedProfBillableHoursCNE --></label>
+        <name>ApprovedProfBillableHoursCNE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved Prof Billable Hours --></label>
+        <name>ApprovedProfBillableHours__c</name>
+    </fields>
+    <fields>
+        <label><!-- ApprovedTWBillableHoursCNE --></label>
+        <name>ApprovedTWBillableHoursCNE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved T/W Billable Hours --></label>
+        <name>ApprovedTWBillableHours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Name --></label>
+        <name>CaseName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Number --></label>
+        <name>CaseNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Submitted --></label>
+        <name>DateSubmitted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Name --></label>
+        <name>EmployeeName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee --></label>
+        <name>Employee__c</name>
+        <relationshipLabel><!-- PayrollTemp --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- HR Notes --></label>
+        <name>HrNotes__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsUserAdded --></label>
+        <name>IsUserAdded__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- PayrollTemp --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Payrollid --></label>
+        <name>Payrollid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Number --></label>
+        <name>ReportNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Case Management Billable Time --></label>
+        <name>TotalCaseManagementBillableTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- UniqueKey --></label>
+        <name>UniqueKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- eDate --></label>
+        <name>eDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- sDate --></label>
+        <name>sDate__c</name>
+    </fields>
+    <layouts>
+        <layout>PayrollTemp Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

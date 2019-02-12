@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>A - Report Review / Rating</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>A - Report Review /Rating</value>
+    </caseValues>
+    <fields>
+        <label><!-- Activity Gap --></label>
+        <name>Activity_Gap2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity Gap --></label>
+        <name>Activity_Gap__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Attachments Comments --></label>
+        <name>Attachments_Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rate this on a scale of 1 to 10 (1 being poor and 10 being excellent) --></help>
+        <label><!-- Attachments Rating --></label>
+        <name>Attachments_Rating__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Attachments Ratings --></label>
+        <name>Attachments_Ratings2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Note Entries - Billing Guidelines --></label>
+        <name>Case_Note_Entries_Billing_Guidelines2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Note Entries - Billing Guidelines --></label>
+        <name>Case_Note_Entries_Billing_Guidelines__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Case Note Entries - Clarity --></label>
+        <name>Case_Note_Entries_Clarity2__c</name>
+    </fields>
+    <fields>
+        <help><!-- 0=unclear
+3=clear --></help>
+        <label><!-- Case Note Entries - Clarity --></label>
+        <name>Case_Note_Entries_Clarity__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Case Note Entries Rating Comments --></help>
+        <label><!-- Case Note Entries Comments --></label>
+        <name>Case_Note_Entries_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Note Entries - Correct Codes --></label>
+        <name>Case_Note_Entries_Correct_Codes2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Note Entries - Correct Codes --></label>
+        <name>Case_Note_Entries_Correct_Codes__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Case Note Entries - Exist --></label>
+        <name>Case_Note_Entries_Exist2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Note Entries - Exist --></label>
+        <name>Case_Note_Entries_Exist__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Case Note Entries - Justification --></label>
+        <name>Case_Note_Entries_Justification2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Note Entries - Justification --></label>
+        <name>Case_Note_Entries_Justification__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Case Note Entries Total Rating --></label>
+        <name>Case_Note_Entries_Total_Rating__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Report / Opportunity --></label>
+        <name>Case_Report_Opportunity__c</name>
+        <relationshipLabel><!-- A - Report Review /Rating --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Communication History Comments --></label>
+        <name>Communication_History_Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rate this on a scale of 1 to 10 (1 being poor and 10 being excellent) --></help>
+        <label><!-- Communication History Rating --></label>
+        <name>Communication_History_Rating__c</name>
+    </fields>
+    <fields>
+        <label><!-- Confirm Appointments EE --></label>
+        <name>Confirm_Appointments_EE2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Did the NCM call a day before or same day to confirm appointments with the EE? --></help>
+        <label><!-- Confirm Appointments EE --></label>
+        <name>Confirm_Appointments_EE__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Confirm Appointments MD --></label>
+        <name>Confirm_Appointments_MD2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Did the NCM call a day before or same day to confirm appointments with the MD? --></help>
+        <label><!-- Confirm Appointments MD --></label>
+        <name>Confirm_Appointments__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact Roles Comments --></label>
+        <name>Contact_Roles_Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rate this on a scale of 1 to 10 (1 being poor and 10 being excellent) --></help>
+        <label><!-- Contact Roles Rating --></label>
+        <name>Contact_Roles_Rating__c</name>
+    </fields>
+    <fields>
+        <help><!-- Did the NCM utilize coverage for this report? --></help>
+        <label><!-- Coverage Team --></label>
+        <name>Coverage_Team__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Days between last a/v &amp; submission --></label>
+        <name>Days_between_last_a_v_submission__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days - last a/v &amp; 1st submission --></label>
+        <name>Days_last_a_v_1st_submission__c</name>
+    </fields>
+    <fields>
+        <label><!-- Defense Attorney --></label>
+        <name>Defense_Attorney2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Defense Attorney Comment --></label>
+        <name>Defense_Attorney_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Defense Attorney --></label>
+        <name>Defense_Attorney__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Employee Attorney --></label>
+        <name>Employee_Attorney2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Attorney Comments --></label>
+        <name>Employee_Attorney_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Attorney --></label>
+        <name>Employee_Attorney__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Employer Comments --></label>
+        <name>Employer_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employer Section --></label>
+        <name>Employer_Section2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employer Section --></label>
+        <name>Employer_Section__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Healthcare Provider Comments --></label>
+        <name>Healthcare_Provider_Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rate this on a scale of 1 to 10 (1 being poor and 10 being excellent) --></help>
+        <label><!-- Healthcare Provider Rating --></label>
+        <name>Healthcare_Provider_rating__c</name>
+    </fields>
+    <fields>
+        <label><!-- How many appointments on this report? --></label>
+        <name>How_many_appointments_on_this_report2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please fill in the amount of appointments on this report --></help>
+        <label><!-- How many appointments on this report? --></label>
+        <name>How_many_appointments_on_this_report__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Reason for no appointment this reporting period --></help>
+        <label><!-- Most Recent Date of Appointment Comment --></label>
+        <name>Most_Recent_Date_of_Appointment_Comment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please fill in the most recent date of appointment on this report --></help>
+        <label><!-- Most Recent Date of Appointment --></label>
+        <name>Most_Recent_Date_of_Appointment__c</name>
+    </fields>
+    <fields>
+        <help><!-- How many times did the NCM Travel to a visit but the EE was a no show? --></help>
+        <label><!-- No Show --></label>
+        <name>No_Show__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overall A Rating --></label>
+        <name>Overall_A_Rating__c</name>
+    </fields>
+    <fields>
+        <label><!-- QSU Timeliness --></label>
+        <name>QSU_Timeliness2__c</name>
+    </fields>
+    <fields>
+        <label><!-- QSU Timeliness --></label>
+        <name>QSU_Timeliness__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- What queue are you completing this review for? --></help>
+        <label><!-- Queue --></label>
+        <name>Queue__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QA</masterLabel>
+            <translation><!-- QA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Report Submission Date --></label>
+        <name>Report_Submission_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Responsive to QC Emails Comments --></label>
+        <name>Responsive_to_QC_Emails_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Responsive to QC Emails Rating --></label>
+        <name>Responsive_to_QC_Emails_Rating2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rate this on a scale of 1 to 10 (1 being poor and 10 being excellent) --></help>
+        <label><!-- Responsive to QC Emails Rating --></label>
+        <name>Responsive_to_QC_Emails_Rating__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Return Report Comment(s) --></label>
+        <name>Return_Report_Comment_s__c</name>
+    </fields>
+    <fields>
+        <help><!-- Is this report being returned? --></help>
+        <label><!-- Return Report --></label>
+        <name>Return_Report__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes, first time</masterLabel>
+            <translation><!-- Yes, first time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes, second time</masterLabel>
+            <translation><!-- Yes, second time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes, third time</masterLabel>
+            <translation><!-- Yes, third time --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SFDC TEST --></label>
+        <name>SFDC_TEST__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supervised by --></label>
+        <name>Supervised_by__c</name>
+    </fields>
+    <fields>
+        <label><!-- Timeliness --></label>
+        <name>Timeliness2__c</name>
+    </fields>
+    <fields>
+        <help><!-- If the report was not submitted in a timely manner please make comment. --></help>
+        <label><!-- Timeliness Comment --></label>
+        <name>Timeliness_Comment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Was this report submitted within the reporting timelines? --></help>
+        <label><!-- Timeliness --></label>
+        <name>Timeliness__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 1st Submission Date --></label>
+        <name>X1st_Submission_Date__c</name>
+    </fields>
+    <layouts>
+        <layout>Nurse&apos;s View of Report Review / Rating Layout</layout>
+        <sections>
+            <label><!-- 1st Submission Date --></label>
+            <section>1st Submission Date</section>
+        </sections>
+        <sections>
+            <label><!-- Current Submission Date --></label>
+            <section>Current Submission Date</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- To Be Complete at A --></label>
+            <section>To Be Complete at A</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Report Review / Rating Layout</layout>
+        <sections>
+            <label><!-- 1st Submission Date --></label>
+            <section>1st Submission Date</section>
+        </sections>
+        <sections>
+            <label><!-- Current Submission Date --></label>
+            <section>Current Submission Date</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- To Be Complete at A --></label>
+            <section>To Be Complete at A</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

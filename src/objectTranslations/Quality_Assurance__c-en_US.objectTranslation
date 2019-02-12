@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Quality Assurance</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Quality Assurance</value>
+    </caseValues>
+    <fields>
+        <label><!-- Date Worked --></label>
+        <name>Date_Worked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Listing --></label>
+        <name>Report_Listing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reviewer Name --></label>
+        <name>Reviewer_Name__c</name>
+        <picklistValues>
+            <masterLabel>Allaire Jutting</masterLabel>
+            <translation><!-- Allaire Jutting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Christina Garcia</masterLabel>
+            <translation><!-- Christina Garcia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Devon Asmus</masterLabel>
+            <translation><!-- Devon Asmus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eileen Jutting</masterLabel>
+            <translation><!-- Eileen Jutting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gavin Duarte</masterLabel>
+            <translation><!-- Gavin Duarte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MarkAnthony Henry</masterLabel>
+            <translation><!-- MarkAnthony Henry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michelle Davis-Okiyefa</masterLabel>
+            <translation><!-- Michelle Davis-Okiyefa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pam Hunt</masterLabel>
+            <translation><!-- Pam Hunt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shelagh Ghering</masterLabel>
+            <translation><!-- Shelagh Ghering --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- # of Hours Worked --></label>
+        <name>of_Hours_Worked__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Reports Approved --></label>
+        <name>of_Reports_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Reports Touched --></label>
+        <name>of_Reports_Touched__c</name>
+    </fields>
+    <layouts>
+        <layout>Quality Assurance Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Report Listing --></label>
+            <section>Report Listing</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

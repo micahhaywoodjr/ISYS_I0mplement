@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Company Metric</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Company Metrics</value>
+    </caseValues>
+    <fields>
+        <label><!-- SRS / CM Ratio --></label>
+        <name>AdminCMRatio__c</name>
+    </fields>
+    <fields>
+        <label><!-- SRS / Cases Ratio --></label>
+        <name>AdminCasesRatio__c</name>
+    </fields>
+    <fields>
+        <label><!-- SRS / Reports Ratio --></label>
+        <name>AdminReportsRatio__c</name>
+    </fields>
+    <fields>
+        <label><!-- SRS Staff --></label>
+        <name>AdminStaff__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA / CM Ratio --></label>
+        <name>CMQARatio__c</name>
+    </fields>
+    <fields>
+        <label><!-- CM Ratio (Admin) --></label>
+        <name>CMRatioAdmin__c</name>
+    </fields>
+    <fields>
+        <label><!-- CM Ratio (QA) --></label>
+        <name>CMRatioQA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Managers --></label>
+        <name>CaseManagers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cases (Closed) --></label>
+        <name>CasesClosed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cases (Open) --></label>
+        <name>CasesOpen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cases Ratio (Admin) --></label>
+        <name>CasesRatioAdmin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cases Ratio (QA) --></label>
+        <name>CasesRatioQA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cases (Re-Opened) --></label>
+        <name>CasesReOpened__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>ExternalId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Month Ending --></label>
+        <name>MonthEnding__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA / Cases Ratio --></label>
+        <name>QACasesRatio__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA / Reports Ratio --></label>
+        <name>QAReportsRatio__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA Staff --></label>
+        <name>QAStaff__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reports (Approved) --></label>
+        <name>ReportsApproved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reports (Completed) --></label>
+        <name>ReportsCompleted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reports (In Process) --></label>
+        <name>ReportsInProcess__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reports Ratio (Admin) --></label>
+        <name>ReportsRatioAdmin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reports Ratio (QA) --></label>
+        <name>ReportsRatioQA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reports (Submitted) --></label>
+        <name>ReportsSubmitted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Open Cases --></label>
+        <name>TotalOpenCases__c</name>
+    </fields>
+    <fields>
+        <help><!-- This total includes Submitted, Approved and Completed Reports.  (Excluding In Process) --></help>
+        <label><!-- Total Reports --></label>
+        <name>TotalReports__c</name>
+    </fields>
+    <layouts>
+        <layout>Company Metric Layout</layout>
+        <sections>
+            <label><!-- Case Information --></label>
+            <section>Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Ratio Information --></label>
+            <section>Ratio Information</section>
+        </sections>
+        <sections>
+            <label><!-- Report Information --></label>
+            <section>Report Information</section>
+        </sections>
+        <sections>
+            <label><!-- Staff Information --></label>
+            <section>Staff Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Timesheet</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Timesheets</value>
+    </caseValues>
+    <fields>
+        <label><!-- Approved Units --></label>
+        <name>Approved_Units__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Report/Opportunity --></label>
+        <name>Case_Report_Opportunity__c</name>
+        <relationshipLabel><!-- Timesheets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date Approved --></label>
+        <name>Date_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee --></label>
+        <name>Employee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Type --></label>
+        <name>Line_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nurse Name --></label>
+        <name>Nurse_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- QBDuration --></label>
+        <name>QBDuration__c</name>
+    </fields>
+    <fields>
+        <label><!-- QB Error --></label>
+        <name>QB_Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- QB Id --></label>
+        <name>QB_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Submission Date --></label>
+        <name>Report_Submission_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>User__c</name>
+        <relationshipLabel><!-- Timesheets --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Timesheet Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

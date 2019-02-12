@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Special Guidelines/Internal Instructions</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Special Guidelines/Internal Instructions</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Special Guidelines/Internal Instructions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Directive From --></label>
+        <name>Directive_From__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Date --></label>
+        <name>Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Mailing Instructions --></label>
+        <name>Invoice_Mailing_Instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Report Mailing Instructions --></label>
+        <name>Report_Mailing_Instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Guidelines --></label>
+        <name>Special_Guidelines__c</name>
+    </fields>
+    <fields>
+        <label><!-- Travel Authorizations/Limitations --></label>
+        <name>Travel_Authorizations_Limitations__c</name>
+    </fields>
+    <layouts>
+        <layout>Special Guidelines/Internal Instructions Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Guidelines --></label>
+            <section>Customer Guidelines</section>
+        </sections>
+        <sections>
+            <label><!-- Internal Instructions --></label>
+            <section>Internal Instructions</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Accounts Receivable</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Accounts Receivable</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Accounts Receivable --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Aging --></label>
+        <name>Aging10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aging --></label>
+        <name>Aging2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aging --></label>
+        <name>Aging3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aging --></label>
+        <name>Aging4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aging --></label>
+        <name>Aging5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aging --></label>
+        <name>Aging6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aging --></label>
+        <name>Aging7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aging --></label>
+        <name>Aging8__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aging --></label>
+        <name>Aging9__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aging --></label>
+        <name>Aging__c</name>
+    </fields>
+    <fields>
+        <label><!-- Balance Due --></label>
+        <name>Balance_Due10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Balance Due --></label>
+        <name>Balance_Due2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Balance Due --></label>
+        <name>Balance_Due3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Balance Due --></label>
+        <name>Balance_Due4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Balance Due --></label>
+        <name>Balance_Due5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Balance Due --></label>
+        <name>Balance_Due6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Balance Due --></label>
+        <name>Balance_Due7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Balance Due --></label>
+        <name>Balance_Due8__c</name>
+    </fields>
+    <fields>
+        <label><!-- Balance Due --></label>
+        <name>Balance_Due9__c</name>
+    </fields>
+    <fields>
+        <label><!-- Balance Due --></label>
+        <name>Balance_Due__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Number --></label>
+        <name>Case_Number__c</name>
+        <relationshipLabel><!-- Accounts Receivable --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Comment --></label>
+        <name>Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow-up Date --></label>
+        <name>Follow_up_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow-up Needed --></label>
+        <name>Follow_up_Needed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice # --></label>
+        <name>Invoice10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice # --></label>
+        <name>Invoice2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice # --></label>
+        <name>Invoice3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice # --></label>
+        <name>Invoice4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice # --></label>
+        <name>Invoice5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice # --></label>
+        <name>Invoice6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice # --></label>
+        <name>Invoice7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice # --></label>
+        <name>Invoice8__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice # --></label>
+        <name>Invoice9__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice # --></label>
+        <name>Invoice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity10__c</name>
+        <relationshipLabel><!-- Accounts Receivable (Opportunity) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity2__c</name>
+        <relationshipLabel><!-- Accounts Receivable (Opportunity) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity3__c</name>
+        <relationshipLabel><!-- Accounts Receivable (Opportunity) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity4__c</name>
+        <relationshipLabel><!-- Accounts Receivable (Opportunity) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity5__c</name>
+        <relationshipLabel><!-- Accounts Receivable (Opportunity) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity6__c</name>
+        <relationshipLabel><!-- Accounts Receivable (Opportunity) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity7__c</name>
+        <relationshipLabel><!-- Accounts Receivable (Opportunity) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity8__c</name>
+        <relationshipLabel><!-- Accounts Receivable (Opportunity) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity9__c</name>
+        <relationshipLabel><!-- Accounts Receivable (Opportunity) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Accounts Receivable --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pd Amount --></label>
+        <name>Pd_Amount10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pd Amount --></label>
+        <name>Pd_Amount2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pd Amount --></label>
+        <name>Pd_Amount3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pd Amount --></label>
+        <name>Pd_Amount4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pd Amount --></label>
+        <name>Pd_Amount5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pd Amount --></label>
+        <name>Pd_Amount6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pd Amount --></label>
+        <name>Pd_Amount7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pd Amount --></label>
+        <name>Pd_Amount8__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pd Amount --></label>
+        <name>Pd_Amount9__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pd Amount --></label>
+        <name>Pd_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report --></label>
+        <name>Report10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report --></label>
+        <name>Report2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report --></label>
+        <name>Report3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report --></label>
+        <name>Report4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report --></label>
+        <name>Report5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report --></label>
+        <name>Report6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report --></label>
+        <name>Report7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report --></label>
+        <name>Report8__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report --></label>
+        <name>Report9__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report --></label>
+        <name>Report__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response --></label>
+        <name>Response__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes - Email</masterLabel>
+            <translation><!-- Yes - Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes - Hardmail</masterLabel>
+            <translation><!-- Yes - Hardmail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes - Phone</masterLabel>
+            <translation><!-- Yes - Phone --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Amount Paid --></label>
+        <name>Total_Amount_Paid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Balance Due --></label>
+        <name>Total_Balance_Due__c</name>
+    </fields>
+    <layouts>
+        <layout>Accounts Receivable Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Past Due Invoices --></label>
+            <section>Past Due Invoices</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

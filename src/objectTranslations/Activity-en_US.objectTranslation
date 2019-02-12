@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Communications History</value>
+        </caseValues>
+        <name>activity_history</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <help><!-- Case Note Entry successfully created and Activity Associated. --></help>
+        <label><!-- Case Note Entry --></label>
+        <name>Case_Note_Entry__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used to indicate when an Activity is the result of a Conga document merge --></help>
+        <label><!-- Document Merge Completed --></label>
+        <name>Document_Merge_Completed__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flag when an error occurs during automatic Case Note Entry creation. --></help>
+        <label><!-- Error Case Note Entry Creation Error --></label>
+        <name>Error_Case_Note_Entry_Creation__c</name>
+    </fields>
+</CustomObjectTranslation>

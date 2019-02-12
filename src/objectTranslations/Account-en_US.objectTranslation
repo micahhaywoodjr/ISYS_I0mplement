@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Record Owner or Rep</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Record Owners or Reps</value>
+        </caseValues>
+        <name>account_owner</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Record Type</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Record Types</value>
+        </caseValues>
+        <name>account_record_type</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Physical Address</value>
+        </caseValues>
+        <name>shipping_address_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Physical City</value>
+        </caseValues>
+        <name>shipping_city_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Physical Country</value>
+        </caseValues>
+        <name>shipping_country_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Physical State/Province</value>
+        </caseValues>
+        <name>shipping_state_account</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Physical Street</value>
+        </caseValues>
+        <name>shipping_street_account</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Physical Zip/Postal Code</value>
+        </caseValues>
+        <name>shipping_zip_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <label><!-- Address --></label>
+        <name>Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allows marketing events? --></label>
+        <name>Allowsmarketingevents__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Alternate Contact Number --></label>
+        <name>Alternate_Contact_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Average Survey Score --></label>
+        <name>AverageSurveyScore__c</name>
+    </fields>
+    <fields>
+        <label><!-- Best days &amp; times to visit --></label>
+        <name>Bestdaystimestovisit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Classification --></label>
+        <name>Classification__c</name>
+        <picklistValues>
+            <masterLabel>Field Location</masterLabel>
+            <translation><!-- Field Location --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head Quarters</masterLabel>
+            <translation><!-- Head Quarters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regional Location</masterLabel>
+            <translation><!-- Regional Location --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact Person (Employer) --></label>
+        <name>Contact_Person_Employer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Comment(s) --></label>
+        <name>ContractComments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Date --></label>
+        <name>ContractDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract? --></label>
+        <name>Contract__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verbal Agreement</masterLabel>
+            <translation><!-- Verbal Agreement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CustomBillCodeProcessed --></label>
+        <name>CustomBillCodeProcessed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Satisfaction Index --></label>
+        <name>Customer_Satisfaction_Index__c</name>
+        <picklistValues>
+            <masterLabel>A - Extremely Satisfied - Customer</masterLabel>
+            <translation><!-- A - Extremely Satisfied - Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B - Satisfied</masterLabel>
+            <translation><!-- B - Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C - Neutral</masterLabel>
+            <translation><!-- C - Neutral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D - Dissatisfied - At risk of losing business</masterLabel>
+            <translation><!-- D - Dissatisfied - At risk of losing business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F - Unsatisfactory - Losing Business</masterLabel>
+            <translation><!-- F - Unsatisfactory - Losing Business --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Employer --></label>
+        <name>Employer__c</name>
+        <relationshipLabel><!-- Employees --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Fax (Employer) --></label>
+        <name>Fax_Employer__c</name>
+    </fields>
+    <fields>
+        <label><!-- If yes, what type --></label>
+        <name>Ifyeswhattype__c</name>
+    </fields>
+    <fields>
+        <help><!-- Instructions for Customer Special Handling and Guidelines --></help>
+        <label><!-- Internal Guidelines --></label>
+        <name>Internal_Guidelines__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mileage Rate --></label>
+        <name>Mileage_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Most Recent Invoice Date --></label>
+        <name>Most_Recent_Invoice_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- No. of Closed Reports --></label>
+        <name>No_of_Closed_Reports__c</name>
+    </fields>
+    <fields>
+        <label><!-- No. of Open Reports --></label>
+        <name>No_of_Open_Reports__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Surveys --></label>
+        <name>NumofSurveys__c</name>
+    </fields>
+    <fields>
+        <label><!-- Occupation --></label>
+        <name>Occupation__c</name>
+    </fields>
+    <fields>
+        <help><!-- Complete this field with &quot;Other&quot; is selected for Type --></help>
+        <label><!-- &quot;Other&quot; Type --></label>
+        <name>Other_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Account Changed --></label>
+        <name>Parent_Account_Changed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone (Employer) --></label>
+        <name>Phone_Employer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Physician Address --></label>
+        <name>Physician_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Physician Fax --></label>
+        <name>Physician_Fax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Physician Phone --></label>
+        <name>Physician_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Professional Rate --></label>
+        <name>Professional_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- QB Error --></label>
+        <name>QB_Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- QB Id --></label>
+        <name>QB_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region Code --></label>
+        <name>Region_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Reports With Non-Professional Hours --></label>
+        <name>ReportsWithNonProfessional_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Reports With Professional Hours --></label>
+        <name>ReportsWithProfessional_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Services Mileage Rate --></label>
+        <name>Rush_Mileage_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Services Professional Rate --></label>
+        <name>Rush_Professional_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Services Travel/Wait Rate --></label>
+        <name>Rush_Travel_Wait_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Instuctions --></label>
+        <name>Special_Instuctions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Specialty --></label>
+        <name>Specialty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sync Me --></label>
+        <name>Sync_Me__c</name>
+    </fields>
+    <fields>
+        <label><!-- Toll Free --></label>
+        <name>Toll_Free__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Balance --></label>
+        <name>TotalBalance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total # CPs --></label>
+        <name>TotalCPs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Reports --></label>
+        <name>Total_Reports__c</name>
+    </fields>
+    <fields>
+        <label><!-- Travel/Wait Rate --></label>
+        <name>Travel_Wait_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Treating Physician --></label>
+        <name>Treating_Physician__c</name>
+    </fields>
+    <fields>
+        <label><!-- UseCustomBillingCode --></label>
+        <name>UseCustomBillingCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value of Closed Reports --></label>
+        <name>Value_of_Closed_Reports__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value of Open Reports --></label>
+        <name>Value_of_Open_Reports__c</name>
+    </fields>
+    <fields>
+        <help><!-- Document verification of info on this Account. Provide date and initials. --></help>
+        <label><!-- Verified Account Info Comment(s) --></label>
+        <name>VerifiedAccountInfoComments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accounting Version --></label>
+        <name>WISAFI_AccountingVersion__c</name>
+    </fields>
+    <layouts>
+        <layout>Customer - CSL</layout>
+        <sections>
+            <label><!-- CONTACT / ADDRESS  INFORMATION --></label>
+            <section>CONTACT / ADDRESS  INFORMATION</section>
+        </sections>
+        <sections>
+            <label><!-- Case Report Details --></label>
+            <section>Case Report Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- INTERNAL GUIDELINES --></label>
+            <section>INTERNAL GUIDELINES</section>
+        </sections>
+        <sections>
+            <label><!-- Integration Information --></label>
+            <section>Integration Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Customer - Company</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Integration Information --></label>
+            <section>Integration Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Customer - Company - Nurse Version</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Customer - Insurance</layout>
+        <sections>
+            <label><!-- CONTACT / ADDRESS  INFORMATION --></label>
+            <section>CONTACT / ADDRESS  INFORMATION</section>
+        </sections>
+        <sections>
+            <label><!-- Case Report Details --></label>
+            <section>Case Report Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- INTERNAL GUIDELINES --></label>
+            <section>INTERNAL GUIDELINES</section>
+        </sections>
+        <sections>
+            <label><!-- Integration Information --></label>
+            <section>Integration Information</section>
+        </sections>
+        <sections>
+            <label><!-- SPECIAL INSTRUCTIONS --></label>
+            <section>SPECIAL INSTRUCTIONS</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Customer - Insurance - Nurse Version</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Individual</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Individual - Nurse Version</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Customer - CSL --></label>
+        <name>Customer_CSL</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This record type is used to create a Company for employees we help --></description>
+        <label><!-- Customer - Company --></label>
+        <name>Customer_Company</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This record type is used to create an Insurance Company (Customer) --></description>
+        <label><!-- Customer - Insurance --></label>
+        <name>Customer_Insurance</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Billing_Codes --></label>
+        <name>Billing_Codes</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateRateCards --></label>
+        <name>CreateRateCards</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- OpenCases --></label>
+        <name>OpenCases</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- OpenCasesTotalInvoice --></label>
+        <name>OpenCasesTotalInvoice</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- USPS --></label>
+        <name>USPS</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>IT Comments</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>IT Comments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- IT Comments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IT Notes --></label>
+        <name>IT_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Increment --></label>
+        <name>Time_Increment__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

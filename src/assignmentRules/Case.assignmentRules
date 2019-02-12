@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
+        <fullName>ISYS - Assignment Rule</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <assignedTo>QueueUnassignedCases</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Web</value>
+            </criteriaItems>
+            <template>Case_Templates/INTERNAL_New_Case_Created</template>
+        </ruleEntry>
+    </assignmentRule>
+</AssignmentRules>

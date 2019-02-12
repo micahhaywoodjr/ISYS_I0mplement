@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Survey Results</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Survey Results</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Survey Results --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Please share any additional comments. --></help>
+        <label><!-- Additional Comments --></label>
+        <name>Additional_Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Did the ISYS case manager assist with arrangement of necessary services, diagnostic testing, medical supplies,  school information, community services? --></help>
+        <label><!-- Assist with Arrangements --></label>
+        <name>Assist_with_Arrangements__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Survey Results --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Did the ISYS case manager communicate between you, family, providers, employer, insurance representative to facilitate resolutions and return to work options? --></help>
+        <label><!-- Communicate --></label>
+        <name>Communicate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Comment to - &quot;How has your condition progressed since your last contact from the case manager? --></help>
+        <label><!-- Condition Progressed Comment --></label>
+        <name>Condition_Progressed_Comment__c</name>
+    </fields>
+    <fields>
+        <help><!-- How has your condition progressed since your last contact from the case manager? --></help>
+        <label><!-- Condition Progressed --></label>
+        <name>Condition_Progressed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Name --></label>
+        <name>ContactName__c</name>
+        <relationshipLabel><!-- Survey Results --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Would you like to be contacted by ISYS? --></help>
+        <label><!-- Contact Comment --></label>
+        <name>Contact_Comment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Were you contacted by an ISYS employee within 24 hours of placing your referral? --></help>
+        <label><!-- Contacted by ISYS --></label>
+        <name>Contacted_by_ISYS__c</name>
+    </fields>
+    <fields>
+        <help><!-- Comment - Please describe your organization. --></help>
+        <label><!-- Describe Organization Comment --></label>
+        <name>Describe_Organization_Comment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please describe your organization: --></help>
+        <label><!-- Describe Organization --></label>
+        <name>Describe_Organization__c</name>
+    </fields>
+    <fields>
+        <help><!-- Comment - Please describe your industry: --></help>
+        <label><!-- Describe industry Comment --></label>
+        <name>Describe_industry_Comment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please describe your industry: --></help>
+        <label><!-- Describe industry --></label>
+        <name>Describe_industry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discuss Issues Comments --></label>
+        <name>Discuss_Issues_Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Would you like to be contacted to discuss any issues or concerns? --></help>
+        <label><!-- Discuss Issues --></label>
+        <name>Discuss_Issues__c</name>
+    </fields>
+    <fields>
+        <label><!-- Explain Purpose Comments --></label>
+        <name>Explain_Purpose_Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Upon initial contact by the case manager did he/she explain to you the purpose of case management services and his/her role? --></help>
+        <label><!-- Explain Purpose --></label>
+        <name>Explain_Purpose__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please Rate: Gained resources available that you did no know before? --></help>
+        <label><!-- Gained Resources --></label>
+        <name>Gained_Resources__c</name>
+    </fields>
+    <fields>
+        <help><!-- Comments related to Goals &amp; Interventions --></help>
+        <label><!-- Goals &amp; Interventions Comments --></label>
+        <name>Goals_Interventions_Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Were the Case Manager&apos;s goals and interventions consistent with your needs? --></help>
+        <label><!-- Goals &amp; Interventions --></label>
+        <name>Goals_Interventions__c</name>
+    </fields>
+    <fields>
+        <help><!-- Did the ISYS case manager help you to understand your diagnosis and select your treatment? --></help>
+        <label><!-- Help You Understand --></label>
+        <name>Help_You_Understand__c</name>
+    </fields>
+    <fields>
+        <help><!-- Were the services of ISYS Solutions, Inc. helpful in dealing with your medical/vocational situation? --></help>
+        <label><!-- Helpful --></label>
+        <name>Helpful__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please rate: Your level of increased knowledge about you condition and care? --></help>
+        <label><!-- Increased Knowledge --></label>
+        <name>Increased_Knowledge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Knowledgable Comment --></label>
+        <name>Knowledgable_Comment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Did the case manager seem knowledgeable about your condition, benefit entitlements and provide you with appropriate answers to your questons? --></help>
+        <label><!-- Knowledgable --></label>
+        <name>Knowledgable__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of Employees: --></help>
+        <label><!-- Number of Employees --></label>
+        <name>Number_of_Employees__c</name>
+    </fields>
+    <fields>
+        <help><!-- Did the ISYS case manager offer you and/or your family member(s) support, encouragement, or assistance in coping with your condition? --></help>
+        <label><!-- Offer Support --></label>
+        <name>Offer_Support__c</name>
+    </fields>
+    <fields>
+        <help><!-- Overall, how would you rate the services provided by your Case Manager? One star below average/Five stars excellent --></help>
+        <label><!-- Overall Rating --></label>
+        <name>Overall_Rating__c</name>
+    </fields>
+    <fields>
+        <help><!-- How would you rate the frequency of contact with the case manager? --></help>
+        <label><!-- Rate Frequency --></label>
+        <name>Rate_Frequency__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please Rate: Improvement of self care and activity since your injury. --></help>
+        <label><!-- Rate Improvement --></label>
+        <name>Rate_Improvement__c</name>
+    </fields>
+    <fields>
+        <help><!-- How would you rate the frequency and method of contact with the Case Manager? Too Few - Just Right - Too Many --></help>
+        <label><!-- Rate &amp; Method of Contact --></label>
+        <name>Rate_Method_of_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recommend ISYS Comments --></label>
+        <name>Recommend_ISYS_Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Would you use and/or recommend ISYS for further case management services? --></help>
+        <label><!-- Recommend ISYS --></label>
+        <name>Recommend_ISYS__c</name>
+    </fields>
+    <fields>
+        <help><!-- Comments - Were you involved in the selection of ISYS&apos; services? --></help>
+        <label><!-- Selection of ISYS Comments --></label>
+        <name>Selection_of_ISYS_Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Were you involved in the selection of ISYS&apos; services? --></help>
+        <label><!-- Selection of ISYS --></label>
+        <name>Selection_of_ISYS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Area --></label>
+        <name>Service_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Needs --></label>
+        <name>Service_Needs__c</name>
+    </fields>
+    <fields>
+        <help><!-- Comments on the services beneficial question. --></help>
+        <label><!-- Services Beneficial Comments --></label>
+        <name>Services_Beneficial_Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Were case management services beneficial? --></help>
+        <label><!-- Services Beneficial --></label>
+        <name>Services_Beneficial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey Type --></label>
+        <name>Survey_Type__c</name>
+        <picklistValues>
+            <masterLabel>Claims Professional</masterLabel>
+            <translation><!-- Claims Professional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee</masterLabel>
+            <translation><!-- Employee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employer</masterLabel>
+            <translation><!-- Employer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Do you feel case management intervention came:  too early - at the right time - too late --></help>
+        <label><!-- Timing --></label>
+        <name>Timing__c</name>
+    </fields>
+    <layouts>
+        <layout>Claims Professional</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Employee</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Employer</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Survey Results Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Survey Results from Claims Professional --></description>
+        <label><!-- Claims Professional --></label>
+        <name>Claims_Professional</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Survey Results from Employee --></description>
+        <label><!-- Employee --></label>
+        <name>Employee</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Survey Results from Employer --></description>
+        <label><!-- Employer --></label>
+        <name>Employer</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

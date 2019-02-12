@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Approval Report Creation Flag</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Approval Report Creation Flag</value>
+    </caseValues>
+    <fields>
+        <label><!-- Run For All --></label>
+        <name>Run_For_All__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

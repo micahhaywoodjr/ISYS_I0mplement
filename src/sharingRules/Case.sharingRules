@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>AshlockNCMGroup</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Ashlock NCM Group</label>
+        <sharedTo>
+            <group>BabcockMentor</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>BabcockNCMGroup</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>AsmusNCMGroup</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Asmus NCM Group</label>
+        <sharedTo>
+            <group>AsmusMentor</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>AsmusNCMGroup</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BaltgalvisNCMGroup</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Baltgalvis NCM Group</label>
+        <sharedTo>
+            <group>BaltgalvisMentor</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>BaltgalvisNCMGroup</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BoylesNCMGroup</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Boyles NCM Group</label>
+        <sharedTo>
+            <group>KaiserMentor</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>KaiserNCMGroup</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>CaseSupportStaff</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Case Support Staff</label>
+        <sharedTo>
+            <group>CaseSupportStaff</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>EntireOrganization</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Chanez_NCM_Group</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Chanez NCM Group</label>
+        <sharedTo>
+            <group>Chanez_Mentor</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>ChanezNCMGroup</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>DaoNCMGroup</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Dao NCM Group</label>
+        <sharedTo>
+            <group>DaoMentor</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>DaoNCMGroup</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>DiehlNCMGroup</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Diehl NCM Group</label>
+        <sharedTo>
+            <group>RyanMentor</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>RyanNCMGroup</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>FidelNCMGroup</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Fidel NCM Group</label>
+        <sharedTo>
+            <group>FidelMentor</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>FidelNCMGroup</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Hurst_NCM_Group</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Hurst NCM Group</label>
+        <sharedTo>
+            <group>WarkentinMentor</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>WarkentinNCMGroup</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Linehan_NCM_Group</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Linehan NCM Group</label>
+        <sharedTo>
+            <group>LinehanMentor</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>LinehanNCMGroup</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>RodriguezNCMGroup</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Rodriguez NCM Group</label>
+        <sharedTo>
+            <group>RodriguezMentor</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>RodriguezNCMGroup</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>SeniorCaseManager</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Senior Case Manager</label>
+        <sharedTo>
+            <group>X06SeniorCaseManager</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>AllDirectEmployeeNurseCaseManagers</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>StockerNCMGroup</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Stocker NCM Group</label>
+        <sharedTo>
+            <group>StockerMentor</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>StockerNCMGroup</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Sutton_NCM_Group</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Sutton NCM Group</label>
+        <sharedTo>
+            <group>Pensinger_Mentor</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>PensingerNCMGroup</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

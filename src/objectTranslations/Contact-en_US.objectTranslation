@@ -1,0 +1,1286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Contact Cell</value>
+        </caseValues>
+        <name>contact_mobile</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Business Email</value>
+        </caseValues>
+        <name>email_contact</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Cell</value>
+        </caseValues>
+        <name>mobile_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Home Address</value>
+        </caseValues>
+        <name>other_address_contact</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Home City</value>
+        </caseValues>
+        <name>other_city_contact</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Home Country</value>
+        </caseValues>
+        <name>other_country_contact</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Home State/Province</value>
+        </caseValues>
+        <name>other_state_contact</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Home Street</value>
+        </caseValues>
+        <name>other_street_contact</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Home Zip/Postal Code</value>
+        </caseValues>
+        <name>other_zip_contact</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <label><!-- Area Code (Phone) --></label>
+        <name>AreaCodePhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Area --></label>
+        <name>Area__c</name>
+        <relationshipLabel><!-- Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Arizona --></label>
+        <name>Arizona__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attorney --></label>
+        <name>Attorney__c</name>
+    </fields>
+    <fields>
+        <label><!-- Average Survey Score --></label>
+        <name>AverageSurveyScore__c</name>
+    </fields>
+    <fields>
+        <label><!-- Avg # CM referrals per month --></label>
+        <name>AvgCMreferralspermonth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Broker --></label>
+        <name>Broker__c</name>
+    </fields>
+    <fields>
+        <label><!-- CCM --></label>
+        <name>CCM__c</name>
+    </fields>
+    <fields>
+        <label><!-- CEU&apos;s Required? --></label>
+        <name>CEU_s_Required__c</name>
+        <picklistValues>
+            <masterLabel>Maybe</masterLabel>
+            <translation><!-- Maybe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CM expectations &amp; preferences --></label>
+        <name>CMexpectationspreferences__c</name>
+    </fields>
+    <fields>
+        <label><!-- CM pet peeves? --></label>
+        <name>CMpetpeeves__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSL Comments --></label>
+        <name>CSL_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- California --></label>
+        <name>California__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Manager --></label>
+        <name>Case_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claims Professional --></label>
+        <name>Claims_Professional__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitors Used --></label>
+        <name>Competitors_Used__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consultant --></label>
+        <name>Consultant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract or Vendor Panel --></label>
+        <name>Contract_or_Vendor_Panel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Critical Alerts --></label>
+        <name>Critical_Alerts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Education Provider --></label>
+        <name>Current_Education_Provider__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Birth --></label>
+        <name>Date_of_Birth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Decision Maker --></label>
+        <name>Decision_Maker__c</name>
+    </fields>
+    <fields>
+        <label><!-- Direct Insurer --></label>
+        <name>Direct_Insurer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employer --></label>
+        <name>Employer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employers Managed by CP --></label>
+        <name>EmployersManagedbyCP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employers Assoc / Prof Activities --></label>
+        <name>Employers_Assoc_Prof_Activities__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Attendee --></label>
+        <name>Event_Attendee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Sponsor --></label>
+        <name>Event_Sponsor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Favorite Entertainment --></label>
+        <name>Favorite_Entertainment__c</name>
+        <picklistValues>
+            <masterLabel>Concerts</masterLabel>
+            <translation><!-- Concerts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plays</masterLabel>
+            <translation><!-- Plays --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sport - Baseball</masterLabel>
+            <translation><!-- Sport - Baseball --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sport - Basketball</masterLabel>
+            <translation><!-- Sport - Basketball --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sport - Football</masterLabel>
+            <translation><!-- Sport - Football --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sport - Hockey</masterLabel>
+            <translation><!-- Sport - Hockey --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Florida --></label>
+        <name>Florida__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date/Type of Gratuity and Value --></help>
+        <label><!-- Gratuities Granted --></label>
+        <name>Gratuities_Granted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Health/Safety Employer --></label>
+        <name>Health_Safety_Employer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hire Date --></label>
+        <name>Hire_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- How many referrals past 6 months? --></label>
+        <name>Howmanyreferralspast6months__c</name>
+    </fields>
+    <fields>
+        <label><!-- Human Resources --></label>
+        <name>Human_Resources__c</name>
+    </fields>
+    <fields>
+        <label><!-- ISYSEd Attendee --></label>
+        <name>ISYSEd_Attendee__c</name>
+    </fields>
+    <fields>
+        <label><!-- ISYSEd Staff --></label>
+        <name>ISYSEd_Staff__c</name>
+    </fields>
+    <fields>
+        <label><!-- ISYS Admin Staff --></label>
+        <name>ISYS_Admin_Staff__c</name>
+    </fields>
+    <fields>
+        <label><!-- ISYS Friends --></label>
+        <name>ISYS_Friends__c</name>
+    </fields>
+    <fields>
+        <label><!-- ISYS Mgmt --></label>
+        <name>ISYS_Mgmt__c</name>
+    </fields>
+    <fields>
+        <label><!-- ISYS NCM --></label>
+        <name>ISYS_NCM__c</name>
+    </fields>
+    <fields>
+        <label><!-- ISYS Voc Staff --></label>
+        <name>ISYS_Voc_Staff__c</name>
+    </fields>
+    <fields>
+        <label><!-- In-house NCM --></label>
+        <name>In_house_NCM__c</name>
+    </fields>
+    <fields>
+        <label><!-- In-house UR --></label>
+        <name>In_house_UR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Guidelines --></label>
+        <name>Internal_Guidelines__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internet Communities --></label>
+        <name>Internet_Communities__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is CP able to select CM vendor? --></label>
+        <name>IsCPabletoselectCMvendor__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select the status of the Contactl with this Account. --></help>
+        <label><!-- Is Contact Active with this Account? --></label>
+        <name>IsContactActivewiththisAccount__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On leave</masterLabel>
+            <translation><!-- On leave --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect</masterLabel>
+            <translation><!-- Prospect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temporary</masterLabel>
+            <translation><!-- Temporary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- LVN --></label>
+        <name>LVN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message --></label>
+        <name>Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- NCM --></label>
+        <name>NCM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nevada --></label>
+        <name>Nevada__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nick Names --></label>
+        <name>Nick_Names__c</name>
+    </fields>
+    <fields>
+        <label><!-- Northern California --></label>
+        <name>Northern_California__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Employees --></label>
+        <name>Number_of_Employees__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Surveys --></label>
+        <name>NumofSurveys__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nurse Gatekeeper 2 --></label>
+        <name>Nurse_Gatekeeper_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nurse Gatekeeper Phone 2 --></label>
+        <name>Nurse_Gatekeeper_Phone_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nurse Gatekeeper Phone --></label>
+        <name>Nurse_Gatekeeper_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nurse Gatekeeper --></label>
+        <name>Nurse_Gatekeeper__c</name>
+    </fields>
+    <fields>
+        <label><!-- OSHA --></label>
+        <name>OSHA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Online Course Attendee --></label>
+        <name>Online_Course_Attendee__c</name>
+    </fields>
+    <fields>
+        <label><!-- &quot;Other&quot; Role --></label>
+        <name>Other_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other important information --></label>
+        <name>Otherimportantinformation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Personal Email --></label>
+        <name>Personal_Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicate the areas the CP could give us a referral in. --></help>
+        <label><!-- Potential areas CP could refer to --></label>
+        <name>PotentialareasCPcouldreferto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preferred Contact Day of Week --></label>
+        <name>Preferred_Contact_Day_of_Week__c</name>
+        <picklistValues>
+            <masterLabel>Any</masterLabel>
+            <translation><!-- Any --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Friday</masterLabel>
+            <translation><!-- Friday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monday</masterLabel>
+            <translation><!-- Monday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thursday</masterLabel>
+            <translation><!-- Thursday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuesday</masterLabel>
+            <translation><!-- Tuesday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wednesday</masterLabel>
+            <translation><!-- Wednesday --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Preferred Gratuities --></label>
+        <name>Preferred_Gratuities__c</name>
+        <picklistValues>
+            <masterLabel>Gratuities $51 - $150</masterLabel>
+            <translation><!-- Gratuities $51 - $150 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gratuities 0 - $50</masterLabel>
+            <translation><!-- Gratuities 0 - $50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Gratuities Allowed</masterLabel>
+            <translation><!-- No Gratuities Allowed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Preferred Method of Communication --></label>
+        <name>Preferred_Method_of_Communication__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fax</masterLabel>
+            <translation><!-- Fax --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile</masterLabel>
+            <translation><!-- Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation><!-- Phone --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Preferred Time of Communication --></label>
+        <name>Preferred_Time_of_Communication__c</name>
+        <picklistValues>
+            <masterLabel>Afternoon</masterLabel>
+            <translation><!-- Afternoon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evening</masterLabel>
+            <translation><!-- Evening --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Morning</masterLabel>
+            <translation><!-- Morning --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Private Employer --></label>
+        <name>Private_Employer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Products Interested In? --></label>
+        <name>Products_Interested_In__c</name>
+        <picklistValues>
+            <masterLabel>Advertising</masterLabel>
+            <translation><!-- Advertising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Design</masterLabel>
+            <translation><!-- Custom Design --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Group Rates</masterLabel>
+            <translation><!-- Group Rates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Licensing</masterLabel>
+            <translation><!-- Licensing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Live Training</masterLabel>
+            <translation><!-- Live Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsorship</masterLabel>
+            <translation><!-- Sponsorship --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Public Agency --></label>
+        <name>Public_Agency__c</name>
+    </fields>
+    <fields>
+        <label><!-- RN --></label>
+        <name>RN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referral Potential Annually --></label>
+        <name>Referral_Potential_Annually__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referrals (Lifetime) --></label>
+        <name>ReferralsLifetime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referrals (Month) --></label>
+        <name>ReferralsMonth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referrals (6 Months) --></label>
+        <name>ReferralsSixMonths__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+        <picklistValues>
+            <masterLabel>Alabama</masterLabel>
+            <translation><!-- Alabama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alaska</masterLabel>
+            <translation><!-- Alaska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arizona</masterLabel>
+            <translation><!-- Arizona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arkansas</masterLabel>
+            <translation><!-- Arkansas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bakersfield Area</masterLabel>
+            <translation><!-- Bakersfield Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colorado</masterLabel>
+            <translation><!-- Colorado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connecticut</masterLabel>
+            <translation><!-- Connecticut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delaware</masterLabel>
+            <translation><!-- Delaware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Florida</masterLabel>
+            <translation><!-- Florida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fresno North &amp; South</masterLabel>
+            <translation><!-- Fresno North &amp; South --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Georgia</masterLabel>
+            <translation><!-- Georgia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hawaii</masterLabel>
+            <translation><!-- Hawaii --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Idaho</masterLabel>
+            <translation><!-- Idaho --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Illinois</masterLabel>
+            <translation><!-- Illinois --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Imperial County</masterLabel>
+            <translation><!-- Imperial County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indiana</masterLabel>
+            <translation><!-- Indiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inland Empire-Central</masterLabel>
+            <translation><!-- Inland Empire-Central --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inland Empire-North</masterLabel>
+            <translation><!-- Inland Empire-North --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inland Empire-South</masterLabel>
+            <translation><!-- Inland Empire-South --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iowa</masterLabel>
+            <translation><!-- Iowa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kansas</masterLabel>
+            <translation><!-- Kansas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kentucky</masterLabel>
+            <translation><!-- Kentucky --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA Central</masterLabel>
+            <translation><!-- LA Central --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA Southbay</masterLabel>
+            <translation><!-- LA Southbay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA Southeast</masterLabel>
+            <translation><!-- LA Southeast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA Valley</masterLabel>
+            <translation><!-- LA Valley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Long Beach/Pasadena</masterLabel>
+            <translation><!-- Long Beach/Pasadena --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Louisiana</masterLabel>
+            <translation><!-- Louisiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maryland</masterLabel>
+            <translation><!-- Maryland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Massachusetts</masterLabel>
+            <translation><!-- Massachusetts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michigan</masterLabel>
+            <translation><!-- Michigan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minnesota</masterLabel>
+            <translation><!-- Minnesota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mississippi</masterLabel>
+            <translation><!-- Mississippi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missouri</masterLabel>
+            <translation><!-- Missouri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montana</masterLabel>
+            <translation><!-- Montana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nebraska</masterLabel>
+            <translation><!-- Nebraska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nevada</masterLabel>
+            <translation><!-- Nevada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Jersey</masterLabel>
+            <translation><!-- New Jersey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Mexico</masterLabel>
+            <translation><!-- New Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New York</masterLabel>
+            <translation><!-- New York --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Carolina</masterLabel>
+            <translation><!-- North Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Dakota</masterLabel>
+            <translation><!-- North Dakota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OC North</masterLabel>
+            <translation><!-- OC North --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OC South</masterLabel>
+            <translation><!-- OC South --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oakland/East Bay</masterLabel>
+            <translation><!-- Oakland/East Bay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ohio</masterLabel>
+            <translation><!-- Ohio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oklahoma</masterLabel>
+            <translation><!-- Oklahoma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oregon</masterLabel>
+            <translation><!-- Oregon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pennsylvania</masterLabel>
+            <translation><!-- Pennsylvania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD Area North</masterLabel>
+            <translation><!-- SD Area North --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD Area South</masterLabel>
+            <translation><!-- SD Area South --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SF Central &amp; North</masterLabel>
+            <translation><!-- SF Central &amp; North --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SF South</masterLabel>
+            <translation><!-- SF South --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sacto Central</masterLabel>
+            <translation><!-- Sacto Central --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sacto North</masterLabel>
+            <translation><!-- Sacto North --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sacto South</masterLabel>
+            <translation><!-- Sacto South --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Jose &amp; South</masterLabel>
+            <translation><!-- San Jose &amp; South --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SanGabriel Valley</masterLabel>
+            <translation><!-- SanGabriel Valley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Santa Barbara+North</masterLabel>
+            <translation><!-- Santa Barbara+North --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Carolina</masterLabel>
+            <translation><!-- South Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Dakota</masterLabel>
+            <translation><!-- South Dakota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tennessee</masterLabel>
+            <translation><!-- Tennessee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Texas</masterLabel>
+            <translation><!-- Texas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utah</masterLabel>
+            <translation><!-- Utah --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ventura/Oxnard Area</masterLabel>
+            <translation><!-- Ventura/Oxnard Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vermont</masterLabel>
+            <translation><!-- Vermont --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virginia</masterLabel>
+            <translation><!-- Virginia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Washington</masterLabel>
+            <translation><!-- Washington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Virginia</masterLabel>
+            <translation><!-- West Virginia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wisconsin</masterLabel>
+            <translation><!-- Wisconsin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wyoming</masterLabel>
+            <translation><!-- Wyoming --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rehab Counselor --></label>
+        <name>Rehab_Counselor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relatives Names --></label>
+        <name>Relatives_Names__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Manager --></label>
+        <name>Risk_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role --></label>
+        <name>Role__c</name>
+        <picklistValues>
+            <masterLabel>Accupuncturist</masterLabel>
+            <translation><!-- Accupuncturist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cardiologist</masterLabel>
+            <translation><!-- Cardiologist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chiropractor</masterLabel>
+            <translation><!-- Chiropractor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Claims Professional</masterLabel>
+            <translation><!-- Claims Professional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DME Provider</masterLabel>
+            <translation><!-- DME Provider --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decision Maker</masterLabel>
+            <translation><!-- Decision Maker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dermatologist</masterLabel>
+            <translation><!-- Dermatologist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doctor of Osteopathy (D.O.)</masterLabel>
+            <translation><!-- Doctor of Osteopathy (D.O.) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Economic Buyer</masterLabel>
+            <translation><!-- Economic Buyer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Economic Decision Maker</masterLabel>
+            <translation><!-- Economic Decision Maker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Attorney</masterLabel>
+            <translation><!-- Employee Attorney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employer</masterLabel>
+            <translation><!-- Employer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employer Attorney</masterLabel>
+            <translation><!-- Employer Attorney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evaluator</masterLabel>
+            <translation><!-- Evaluator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive Sponsor</masterLabel>
+            <translation><!-- Executive Sponsor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Surgeon</masterLabel>
+            <translation><!-- General Surgeon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hand Specialist</masterLabel>
+            <translation><!-- Hand Specialist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Influencer</masterLabel>
+            <translation><!-- Influencer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance Broker</masterLabel>
+            <translation><!-- Insurance Broker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Medicine</masterLabel>
+            <translation><!-- Internal Medicine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interpreter Service</masterLabel>
+            <translation><!-- Interpreter Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nephrologist</masterLabel>
+            <translation><!-- Nephrologist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neuro-Surgeon</masterLabel>
+            <translation><!-- Neuro-Surgeon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neurologist</masterLabel>
+            <translation><!-- Neurologist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ophthalmology</masterLabel>
+            <translation><!-- Ophthalmology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ortho-Surgeon</masterLabel>
+            <translation><!-- Ortho-Surgeon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pain Management Specialist</masterLabel>
+            <translation><!-- Pain Management Specialist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physiatrist</masterLabel>
+            <translation><!-- Physiatrist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physical Therapist</masterLabel>
+            <translation><!-- Physical Therapist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Podiatrist</masterLabel>
+            <translation><!-- Podiatrist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary Treating Physician</masterLabel>
+            <translation><!-- Primary Treating Physician --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Psychologist / Psychiatrist</masterLabel>
+            <translation><!-- Psychologist / Psychiatrist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RTW Specialist / Coordinator</masterLabel>
+            <translation><!-- RTW Specialist / Coordinator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stroke &amp; Vascular Neurologist</masterLabel>
+            <translation><!-- Stroke &amp; Vascular Neurologist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Buyer</masterLabel>
+            <translation><!-- Technical Buyer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilization Review Nurse</masterLabel>
+            <translation><!-- Utilization Review Nurse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work Comp Coordinator</masterLabel>
+            <translation><!-- Work Comp Coordinator --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SDL Comments --></label>
+        <name>SDLComments__c</name>
+    </fields>
+    <fields>
+        <label><!-- SI/SA --></label>
+        <name>SI_SA__c</name>
+    </fields>
+    <fields>
+        <label><!-- SSN --></label>
+        <name>SSN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Safety Officer --></label>
+        <name>Safety_Officer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Self Insured Employer --></label>
+        <name>Self_Insured_Employer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Southern California --></label>
+        <name>Southern_California__c</name>
+    </fields>
+    <fields>
+        <help><!-- To be used for special instructions details if user selects &quot;Other&quot; in corresponding field. --></help>
+        <label><!-- Special Instructions - Other --></label>
+        <name>Special_Instructions_Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Instructions --></label>
+        <name>Special_Instructions__c</name>
+        <picklistValues>
+            <masterLabel>Applied Risk</masterLabel>
+            <translation><!-- Applied Risk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chevron Corporation</masterLabel>
+            <translation><!-- Chevron Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gallagher Bassett</masterLabel>
+            <translation><!-- Gallagher Bassett --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SYS Standards &amp; Protocols</masterLabel>
+            <translation><!-- SYS Standards &amp; Protocols --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sedgwick</masterLabel>
+            <translation><!-- Sedgwick --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sentry Insurance</masterLabel>
+            <translation><!-- Sentry Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swift Transportation</masterLabel>
+            <translation><!-- Swift Transportation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Check this box if the Contact should receive our surveys --></help>
+        <label><!-- Survey Recipient --></label>
+        <name>Survey_Recipient__c</name>
+    </fields>
+    <fields>
+        <label><!-- TPA --></label>
+        <name>TPA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Frame for Project Completion --></label>
+        <name>Time_Frame_for_Project_Completion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Timezone --></label>
+        <name>Timezone__c</name>
+        <picklistValues>
+            <masterLabel>(GMT-04:00) Atlantic Standard Time (Atlantic/Bermuda)</masterLabel>
+            <translation><!-- (GMT-04:00) Atlantic Standard Time (Atlantic/Bermuda) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(GMT-05:00) Eastern Standard Time (America/New_York)</masterLabel>
+            <translation><!-- (GMT-05:00) Eastern Standard Time (America/New_York) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(GMT-06:00) Central Standard Time (America/Chicago)</masterLabel>
+            <translation><!-- (GMT-06:00) Central Standard Time (America/Chicago) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(GMT-07:00) Mountain Standard Time (America/Denver)</masterLabel>
+            <translation><!-- (GMT-07:00) Mountain Standard Time (America/Denver) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(GMT-08:00) Pacific Standard Time (America/Los_Angeles)</masterLabel>
+            <translation><!-- (GMT-08:00) Pacific Standard Time (America/Los_Angeles) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type of Employees --></label>
+        <name>Type_of_Employees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Types of claims handled - Additional --></label>
+        <name>Types_of_claims_handled_Additional__c</name>
+    </fields>
+    <fields>
+        <label><!-- Types of claims handled --></label>
+        <name>Types_of_claims_handled__c</name>
+        <picklistValues>
+            <masterLabel>Catastrophic &amp; Complex</masterLabel>
+            <translation><!-- Catastrophic &amp; Complex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employer Specific</masterLabel>
+            <translation><!-- Employer Specific --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Routine File</masterLabel>
+            <translation><!-- Routine File --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Vendor --></label>
+        <name>Vendor__c</name>
+    </fields>
+    <fields>
+        <label><!-- W/C --></label>
+        <name>W_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Which CM vendors does CP refer to? --></label>
+        <name>WhichCMvendorsdoesCPreferto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Schedules --></label>
+        <name>Work_Schedules__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicate the areas the CP refers to. --></help>
+        <label><!-- Areas currently referring to ISYS --></label>
+        <name>areascurrentlyreferringtoISYS__c</name>
+    </fields>
+    <layouts>
+        <layout>Contact - CSL</layout>
+        <sections>
+            <label><!-- CSL CLIENT DATA --></label>
+            <section>CSL CLIENT DATA</section>
+        </sections>
+        <sections>
+            <label><!-- CSL COMMENTS --></label>
+            <section>CSL COMMENTS</section>
+        </sections>
+        <sections>
+            <label><!-- Constant Contact Feedback --></label>
+            <section>Constant Contact Feedback</section>
+        </sections>
+        <sections>
+            <label><!-- Constant Contact Target Criteria --></label>
+            <section>Constant Contact Target Criteria</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Integration Information --></label>
+            <section>Integration Information</section>
+        </sections>
+        <sections>
+            <label><!-- Message &amp; Description From Lead / Special Instructions --></label>
+            <section>Message &amp; Description From Lead / Special Instructions</section>
+        </sections>
+        <sections>
+            <label><!-- REFERRAL INFORMATION --></label>
+            <section>REFERRAL INFORMATION</section>
+        </sections>
+        <sections>
+            <label><!-- SURVEYS --></label>
+            <section>SURVEYS</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Contact - Customer Relations</layout>
+        <sections>
+            <label><!-- CLAIMS PROFESSIONAL DATA --></label>
+            <section>CLAIMS PROFESSIONAL DATA</section>
+        </sections>
+        <sections>
+            <label><!-- Constant Contact Feedback --></label>
+            <section>Constant Contact Feedback</section>
+        </sections>
+        <sections>
+            <label><!-- Constant Contact Target Criteria --></label>
+            <section>Constant Contact Target Criteria</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Integration Information --></label>
+            <section>Integration Information</section>
+        </sections>
+        <sections>
+            <label><!-- Message &amp; Description From Lead / Special Instructions --></label>
+            <section>Message &amp; Description From Lead / Special Instructions</section>
+        </sections>
+        <sections>
+            <label><!-- REFERRAL INFORMATION --></label>
+            <section>REFERRAL INFORMATION</section>
+        </sections>
+        <sections>
+            <label><!-- SDL COMMENTS / INTERNAL GUIDELINES --></label>
+            <section>SDL COMMENTS / INTERNAL GUIDELINES</section>
+        </sections>
+        <sections>
+            <label><!-- SURVEYS --></label>
+            <section>SURVEYS</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Contact - Nurse Version</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Integration Information --></label>
+            <section>Integration Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Contact Layout</layout>
+        <sections>
+            <label><!-- Constant Contact Target Criteria --></label>
+            <section>Constant Contact Target Criteria</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Integration Information --></label>
+            <section>Integration Information</section>
+        </sections>
+        <sections>
+            <label><!-- Message &amp; Description From Lead / Special Instructions --></label>
+            <section>Message &amp; Description From Lead / Special Instructions</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- Facebook --></label>
+        <name>Facebook</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- LinkedIn --></label>
+        <name>LinkedIn</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Plaxo --></label>
+        <name>Plaxo</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooWeather --></label>
+        <name>YahooWeather</name>
+    </webLinks>
+</CustomObjectTranslation>
